@@ -24,7 +24,7 @@
     {
       "id": "orchestrator",
       "name": "指挥虾",
-      "machine": "vps",
+      "machine": "rog",
       "model": "anthropic/claude-sonnet-4-6",
       "soul": "shared/souls/orchestrator.md",
       "skills": ["task-dispatch", "status-report", "fleet-monitor"],
@@ -35,7 +35,7 @@
     {
       "id": "writer",
       "name": "编剧虾",
-      "machine": "pc-1",
+      "machine": "macmini",
       "model": "deepseek/deepseek-chat",
       "soul": "shared/souls/writer.md",
       "skills": ["screenplay", "copywriting", "novel-parser"],
@@ -46,7 +46,7 @@
     {
       "id": "artist",
       "name": "美术虾",
-      "machine": "pc-2",
+      "machine": "4090",
       "model": "deepseek/deepseek-chat",
       "soul": "shared/souls/artist.md",
       "skills": ["sd-prompt", "midjourney", "storyboard"],
@@ -57,7 +57,7 @@
     {
       "id": "video",
       "name": "视频虾",
-      "machine": "pc-3",
+      "machine": "macbook",
       "model": "deepseek/deepseek-chat",
       "soul": "shared/souls/video.md",
       "skills": ["ffmpeg-edit", "tts-gen", "subtitle-gen"],
@@ -68,7 +68,7 @@
     {
       "id": "publisher",
       "name": "发布虾",
-      "machine": "pc-4",
+      "machine": "p4",
       "model": "deepseek/deepseek-chat",
       "soul": "shared/souls/publisher.md",
       "skills": ["multi-platform", "analytics", "seo-optimizer"],
@@ -79,7 +79,7 @@
     {
       "id": "databot",
       "name": "数据虾",
-      "machine": "pc-1",
+      "machine": "macmini2",
       "model": "deepseek/deepseek-chat",
       "soul": "shared/souls/databot.md",
       "skills": ["health-data", "timeline-api", "report-gen"],
