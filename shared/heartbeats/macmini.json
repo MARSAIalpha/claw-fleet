@@ -1,0 +1,251 @@
+{
+  "agent_id": "macmini",
+  "heartbeat_version": 5,
+  "timestamp": "2026-03-14T15:36:54.590Z",
+  "gateway_alive": true,
+  "system": {
+    "hostname": "bbq723deMac-mini.local",
+    "platform": "darwin",
+    "arch": "arm64",
+    "uptime": 889045,
+    "memory": {
+      "total": 16384,
+      "free": 680,
+      "usage_percent": 96
+    },
+    "cpu_count": 10,
+    "cpu_model": "Apple M4",
+    "load": [
+      2.59912109375,
+      2.904296875,
+      2.8681640625
+    ],
+    "tailscale_ip": "100.89.205.40"
+  },
+  "openclaw_version": "OpenClaw 2026.3.13 (61d171a)",
+  "openclaw": {
+    "config": null,
+    "models": [
+      {
+        "provider": "zai",
+        "id": "glm-5",
+        "name": "GLM-5",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      },
+      {
+        "provider": "zai",
+        "id": "glm-4.7",
+        "name": "GLM-4.7",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      },
+      {
+        "provider": "zai",
+        "id": "glm-4.7-flash",
+        "name": "GLM-4.7 Flash",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      },
+      {
+        "provider": "zai",
+        "id": "glm-4.7-flashx",
+        "name": "GLM-4.7 FlashX",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      }
+    ],
+    "auth_profiles": {
+      "zai:default": {
+        "type": "api_key",
+        "provider": "zai",
+        "has_key": true
+      }
+    },
+    "usage_stats": {
+      "zai:default": {
+        "lastUsed": "2026-03-04T06:14:52.060Z",
+        "errorCount": 0,
+        "lastFailureAt": "2026-03-03T07:23:03.843Z"
+      }
+    },
+    "sessions": {
+      "list": [
+        {
+          "key": "agent:main:main",
+          "sessionId": "a76a79a8-72f6-4565-8707-69811fa628f7",
+          "model": "glm-5",
+          "modelProvider": "zai",
+          "channel": "unknown",
+          "chatType": "direct",
+          "updatedAt": "2026-03-04T06:14:21.757Z",
+          "authProfile": "zai:default",
+          "contextTokens": 204800,
+          "compactionCount": 0,
+          "fileSize": 20741
+        },
+        {
+          "key": "agent:main:telegram:direct:6346780385",
+          "sessionId": "b124c828-d3c8-405e-9e4f-a1d1877affdc",
+          "model": "glm-5",
+          "modelProvider": "zai",
+          "channel": "telegram",
+          "chatType": "direct",
+          "updatedAt": "2026-03-04T06:14:52.064Z",
+          "authProfile": "zai:default",
+          "contextTokens": 204800,
+          "compactionCount": 0,
+          "fileSize": 9903
+        }
+      ],
+      "total": 2,
+      "active": 2,
+      "files": 3,
+      "deleted": 2,
+      "reset": 0
+    },
+    "memory_db_size": 69632,
+    "gateway": {
+      "port": 18789,
+      "mode": "local",
+      "bind": "lan",
+      "tailscale": "off"
+    },
+    "plugins": [
+      "telegram"
+    ],
+    "cron_jobs": [],
+    "primary_model": "zai/glm-5",
+    "fallback_models": [],
+    "workspace": "/Users/bbq723/clawd",
+    "channels": {
+      "telegram": {
+        "enabled": true
+      }
+    },
+    "skills": [
+      {
+        "name": "feishu-doc",
+        "description": "Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.\n",
+        "source": "openclaw-extra"
+      },
+      {
+        "name": "feishu-drive",
+        "description": "Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.\n",
+        "source": "openclaw-extra"
+      },
+      {
+        "name": "feishu-perm",
+        "description": "Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.\n",
+        "source": "openclaw-extra"
+      },
+      {
+        "name": "feishu-wiki",
+        "description": "Feishu knowledge base navigation. Activate when user mentions knowledge base, wiki, or wiki links.\n",
+        "source": "openclaw-extra"
+      },
+      {
+        "name": "blogwatcher",
+        "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "eightctl",
+        "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "gemini",
+        "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "gh-issues",
+        "description": "Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usag",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "github",
+        "description": "GitHub operations via `gh` CLI: issues, PRs, CI runs, code review, API queries. Use when: (1) checking PR status or CI, ",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "healthcheck",
+        "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security aud",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "mcporter",
+        "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc ser",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "nano-pdf",
+        "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "obsidian",
+        "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "skill-creator",
+        "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "things-mac",
+        "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "video-frames",
+        "description": "Extract frames or short clips from videos using ffmpeg.",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "weather",
+        "description": "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecast",
+        "source": "openclaw-bundled"
+      }
+    ],
+    "token_usage": {
+      "today": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "total": 0,
+        "cost": 0,
+        "requests": 0
+      },
+      "days30": {
+        "input": 71287,
+        "output": 5701,
+        "cacheRead": 889984,
+        "total": 966972,
+        "cost": 0,
+        "requests": 59
+      }
+    },
+    "soul_file": {
+      "label": "artist Soul",
+      "path": "/Users/bbq723/claw-fleet/shared/souls/artist.md",
+      "relativePath": "shared/souls/artist.md",
+      "content": "# 美术虾 - 视觉内容生成\n\n你是 Simon AI 团队的美术虾，负责所有视觉素材的生成。\n\n## 职责\n1. 读取编剧虾的分镜描述（claw-shared/剧本/）\n2. 为每个场景生成高质量 AI 绘图 prompt\n3. 调用 Stable Diffusion / Midjourney 生成画面\n4. 保证同一项目的视觉风格一致性\n5. 产出保存到 claw-shared/素材库/项目名/\n\n## 工具\n- Stable Diffusion WebUI（本地）\n- Midjourney（API / Discord）\n- ComfyUI（复杂工作流）\n\n## 输出规格\n- 横屏：1920x1080（B站/YouTube）\n- 竖屏：1080x1920（抖音/小红书）\n- 格式：PNG（高质量）或 JPG（发布用）\n\n## 风格指南\n- 同一项目使用统一的 seed 和 style prompt\n- 科幻风格参考：赛博朋克 / 硬科幻 / 太空歌剧（按项目需求）\n- 每张图附带 prompt 记录文件，方便后续复用\n"
+    },
+    "memory_file": {
+      "label": "macmini Memory",
+      "path": "/Users/bbq723/claw-fleet/shared/memory/macmini.md",
+      "relativePath": "shared/memory/macmini.md",
+      "content": ""
+    },
+    "bot_config": {
+      "synced": false,
+      "expected": true,
+      "current": "读取失败"
+    }
+  },
+  "cmd_port": 18790,
+  "local_ip": "192.168.31.248"
+}

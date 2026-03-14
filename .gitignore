@@ -1,0 +1,4 @@
+.stfolder/
+*.sync-conflict-*
+node_modules/
+.DS_Store
