@@ -9,7 +9,11 @@
     "telegram": {
       "group_id": "-100XXXXXXXXXX",
       "topics": {
-        "指挥部": "TOPIC_ID",
+        "总控": "TOPIC_ID",
+        "新闻组": "TOPIC_ID",
+        "社媒组": "TOPIC_ID",
+        "视频组": "TOPIC_ID",
+        "开发组": "TOPIC_ID",
         "日志": "TOPIC_ID"
       }
     }
@@ -54,7 +58,7 @@
   "monitor": {
     "heartbeat_timeout": 600,
     "auto_restart": true,
-    "alert_channel": "指挥部",
+    "alert_channel": "总控",
     "max_restart_attempts": 3
   }
 }
