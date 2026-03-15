@@ -1,0 +1,60 @@
+{
+  "$comment": "小龙虾舰队统一配置模板 — 复制为 fleet-config.json 后填入真实值",
+
+  "fleet": {
+    "name": "My Claw Fleet",
+    "version": "1.0.0",
+    "openclaw_version": "latest",
+    "default_model": "deepseek/deepseek-chat",
+    "telegram": {
+      "group_id": "-100XXXXXXXXXX",
+      "topics": {
+        "指挥部": "TOPIC_ID",
+        "日志": "TOPIC_ID"
+      }
+    }
+  },
+
+  "agents": [
+    {
+      "id": "example-agent",
+      "name": "示例虾",
+      "machine": "machine-key",
+      "model": "deepseek/deepseek-chat",
+      "soul": "shared/souls/example.md",
+      "skills": [],
+      "bot_token_env": "CLAW_BOT_TOKEN_EXAMPLE",
+      "topic": "指挥部",
+      "heartbeat_interval": 300
+    }
+  ],
+
+  "machines": {
+    "example-machine": {
+      "hostname": "your-hostname",
+      "tailscale_ip": "100.x.x.x",
+      "ssh_user": "your-user",
+      "platform": "win32|darwin|linux",
+      "agent_id": "example-machine",
+      "label": "Display Name",
+      "bot_token": "YOUR_TELEGRAM_BOT_TOKEN"
+    }
+  },
+
+  "syncthing": {
+    "shared_folder": "claw-shared",
+    "sync_paths": [
+      "shared/skills",
+      "shared/souls",
+      "shared/context",
+      "shared/fleet-status.json"
+    ]
+  },
+
+  "monitor": {
+    "heartbeat_timeout": 600,
+    "auto_restart": true,
+    "alert_channel": "指挥部",
+    "max_restart_attempts": 3
+  }
+}

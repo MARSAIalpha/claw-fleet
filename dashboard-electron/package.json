@@ -1,0 +1,32 @@
+{
+  "name": "claw-dashboard",
+  "version": "1.0.0",
+  "description": "小龙虾舰队控制面板",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64",
+    "dev": "electron . --remote-debugging-port=9222"
+  },
+  "author": "Simon",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "electron-log": "^5.2.4"
+  },
+  "build": {
+    "appId": "com.simon.claw-dashboard",
+    "productName": "Claw Dashboard",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "asar": true,
+    "compression": "store"
+  }
+}

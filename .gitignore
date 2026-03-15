@@ -1,0 +1,54 @@
+# 敏感配置（含 bot_token 和 Tailscale IP）
+fleet-config.json
+
+# Syncthing
+.stfolder/
+*.sync-conflict-*
+~syncthing~*
+
+# 心跳数据（运行时生成）
+shared/heartbeats/
+shared/fleet-status.json
+
+# Agent 记忆（运行时生成）
+shared/memory/
+
+# 日志
+*.log
+nohup.out
+monitor/nohup.out
+
+# Node.js
+node_modules/
+
+# 临时文件
+*.tmp
+*.tmp.*
+*.bak
+tmp/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude worktrees
+.claude/
+
+# Generated launcher scripts (machine-specific, created by install scripts)
+service/start-heartbeat.bat
+service/start-heartbeat.vbs
+
+# Dev preview files
+preview-*.html
+dashboard/preview.html
+
+# Electron build artifacts
+dashboard-electron/dist/
+dashboard-electron/node_modules/
+
+# db-api (generated, user installs locally)
+db-api/node_modules/

@@ -1,0 +1,15 @@
+{
+  "name": "fleet-db-api",
+  "version": "1.0.0",
+  "description": "小龙虾舰队共享数据库 REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.3.0",
+    "pg": "^8.13.0",
+    "pgvector": "^0.2.0"
+  }
+}
