@@ -19,13 +19,39 @@ const { exec } = require('child_process');
 const PORT = process.env.DASHBOARD_PORT || 3000;
 const STATUS_FILE = path.join(__dirname, '..', 'shared', 'fleet-status.json');
 const CONFIG_FILE = path.join(__dirname, '..', 'fleet-config.json');
-const TIMEOUT_MS = 120 * 1000;
+const TIMEOUT_MS = 300 * 1000; // 5 分钟无心跳才判定离线（防止 Syncthing 延迟误判）
 
 // 确保目录存在
 const statusDir = path.dirname(STATUS_FILE);
 if (!fs.existsSync(statusDir)) fs.mkdirSync(statusDir, { recursive: true });
 
 function escHtml(s) { return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// ── 主动 ping 缓存：后台定期 ping 每台机器的 18790 端口，避免 Syncthing 延迟导致误判离线 ──
+const pingCache = {}; // { agentId: { alive: bool, ts: number } }
+function backgroundPingAll() {
+  const config = loadFleetConfig();
+  if (!config?.machines) return;
+  for (const [key, m] of Object.entries(config.machines)) {
+    if (m.hidden) continue;
+    const ip = m.tailscale_ip;
+    if (!ip) continue;
+    const agentId = m.agent_id || key;
+    const url = `http://${ip}:18790/ping`;
+    const req = http.get(url, { timeout: 3000 }, (res) => {
+      let body = '';
+      res.on('data', c => body += c);
+      res.on('end', () => {
+        pingCache[agentId] = { alive: true, ts: Date.now() };
+      });
+    });
+    req.on('error', () => { pingCache[agentId] = { alive: false, ts: Date.now() }; });
+    req.on('timeout', () => { req.destroy(); pingCache[agentId] = { alive: false, ts: Date.now() }; });
+  }
+}
+// 每 30 秒 ping 一轮
+setInterval(backgroundPingAll, 30000);
+setTimeout(backgroundPingAll, 2000); // 启动 2 秒后首次 ping
 
 function getAllStatus() {
   const now = Date.now();
@@ -71,9 +97,12 @@ function getAllStatus() {
     );
     const machineInfo = machineKey ? expectedMachines[machineKey] : null;
     if (machineInfo && machineInfo.hidden) { seen.add(id); if (machineKey) seen.add(machineKey); continue; }
+    // 主动 ping 兜底：心跳文件超时但 ping 通 = 仍然在线（Syncthing 延迟）
+    const fileOnline = elapsed < TIMEOUT_MS;
+    const pingAlive = pingCache[id]?.alive && (now - (pingCache[id]?.ts || 0)) < 60000;
     result.push({
       ...a, id,
-      online: elapsed < TIMEOUT_MS,
+      online: fileOnline || pingAlive,
       elapsed,
       elapsedText: fmtElapsed(elapsed),
       expected: true,
@@ -122,7 +151,7 @@ function fmtElapsed(ms) {
   return Math.round(ms / 86400000) + '天前';
 }
 function fmtBytes(b) { if (!b) return '-'; return b < 1048576 ? (b/1024).toFixed(1)+' KB' : (b/1048576).toFixed(1)+' MB'; }
-function fmtUptime(s) { if (!s) return '-'; const h=Math.floor(s/3600),m=Math.floor((s%3600)/60); return h>24?Math.floor(h/24)+'天'+h%24+'h':h+'h'+m+'m'; }
+function fmtUptime(s) { if (!s) return '-'; const d=Math.floor(s/86400),h=Math.floor((s%86400)/3600),m=Math.floor((s%3600)/60); return d>0?d+'d '+h+'h':h+'h '+m+'m'; }
 function fmtTime(iso) {
   if (!iso) return '-';
   try { const d=Date.now()-new Date(iso).getTime(); return d<3600000?Math.round(d/60000)+'分钟前':d<86400000?Math.round(d/3600000)+'小时前':Math.round(d/86400000)+'天前'; } catch{ return '-'; }
@@ -629,8 +658,8 @@ function renderDashboard() {
     function fmtTokensJS(n) { return n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?(n/1e3).toFixed(1)+'K':String(n); }
     function fmtUptimeJS(s) {
       if (!s || s <= 0) return '-';
-      const d = Math.floor(s/86400), h = Math.floor((s%86400)/3600);
-      return d > 0 ? d+'天'+h+'h' : h+'h'+Math.floor((s%3600)/60)+'m';
+      const d = Math.floor(s/86400), h = Math.floor((s%86400)/3600), m = Math.floor((s%3600)/60);
+      return d > 0 ? d+'d '+h+'h' : h+'h '+m+'m';
     }
     function badgeHTML(status, label) {
       return '<span class="badge badge-'+status+'">'+label+'</span>';
