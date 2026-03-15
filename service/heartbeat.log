@@ -1,0 +1,2634 @@
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:08:26.749Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:08:27.079Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+   Command port: 18790
+/bin/sh: openclaw: command not found
+[2026-03-14T08:08:57.082Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:08:57.209Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:09:27.082Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:09:27.211Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:09:57.082Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:09:57.211Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:10:27.083Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:10:27.210Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:10:57.084Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:10:57.211Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:11:27.086Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:11:27.210Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:11:57.087Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:11:57.209Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:12:27.089Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:12:27.215Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:12:57.089Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:12:57.218Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:13:27.090Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:13:27.218Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:13:57.090Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:13:57.219Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:14:27.088Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:14:27.200Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:14:57.088Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:14:57.212Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:15:27.089Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:15:27.219Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:15:57.090Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:15:57.216Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:16:27.090Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:16:27.227Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:16:57.090Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:16:57.219Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:17:27.090Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:17:27.220Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:17:57.091Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:17:57.202Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:18:27.092Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:18:27.221Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:18:57.092Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:18:57.221Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:19:27.094Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:19:27.220Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:19:57.095Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:19:57.220Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:20:27.097Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:20:27.224Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:20:57.097Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:20:57.219Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:21:27.098Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:21:27.218Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:21:57.099Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:21:57.226Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:22:27.099Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:22:27.224Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:22:57.100Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:22:57.236Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:23:27.101Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:23:27.237Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:23:57.101Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:23:57.226Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:24:27.104Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:24:27.228Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:24:57.106Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:24:57.213Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:25:27.108Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:25:27.233Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:25:57.109Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:25:57.234Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:26:27.112Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:26:27.246Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:26:57.112Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:26:57.240Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:27:27.114Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:27:27.253Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:27:57.115Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:27:57.266Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:28:19.606Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T08:28:19.696Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+   Command port: 18790
+/bin/sh: openclaw: command not found
+[2026-03-14T08:28:49.697Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:28:49.824Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:29:19.698Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:29:19.826Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:29:49.698Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:29:49.820Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:30:19.700Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:30:19.825Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:30:49.700Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:30:49.841Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:31:19.700Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:31:19.832Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:31:49.702Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:31:49.846Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:32:19.702Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:32:19.831Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:32:49.704Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:32:49.841Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:33:19.705Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:33:19.830Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:33:49.706Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:33:49.844Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:34:19.708Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:34:19.831Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:34:49.709Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:34:49.835Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:35:19.711Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:35:19.847Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:35:49.713Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:35:49.843Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:36:19.714Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:36:19.855Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:36:49.715Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:36:49.835Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:37:19.717Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:37:19.845Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:37:49.720Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:37:49.843Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:38:19.721Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:38:19.844Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:38:49.724Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:38:49.855Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:39:19.725Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:39:19.864Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:39:49.727Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:39:49.857Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:40:19.729Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:40:19.866Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:40:49.731Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:40:49.856Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:41:19.731Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:41:19.854Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:41:49.732Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:41:49.866Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:42:19.733Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:42:19.862Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:42:49.736Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:42:49.870Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:43:19.738Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:43:19.868Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:43:49.740Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:43:49.872Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:44:19.740Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:44:19.864Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:44:49.740Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:44:49.868Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:45:19.743Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:45:19.881Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:45:49.744Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:45:49.868Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:46:19.743Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:46:19.874Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:46:49.745Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:46:49.872Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:47:19.746Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:47:19.875Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:47:49.748Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:47:49.876Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:48:19.749Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:48:19.875Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:48:49.752Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:48:49.885Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:49:19.753Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:49:19.879Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:49:49.754Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:49:49.890Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:50:19.756Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T08:50:19.884Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:50:49.758Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:50:49.893Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:51:19.758Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:51:19.885Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:51:49.760Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:51:49.886Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:52:19.760Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T08:52:19.897Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:52:49.762Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:52:49.886Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:53:19.764Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:53:19.891Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:53:49.766Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:53:49.894Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:54:19.767Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:54:19.891Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:54:49.769Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:54:49.893Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:55:19.772Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:55:19.898Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:55:49.773Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:55:49.902Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:56:19.775Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:56:19.894Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:56:49.777Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:56:49.899Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:57:19.779Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:57:19.902Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:57:49.782Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:57:49.909Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:58:19.784Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:58:19.912Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:58:49.786Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:58:49.912Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:59:19.788Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T08:59:19.915Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T08:59:49.790Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T08:59:49.915Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:00:19.791Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:00:19.912Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:00:49.791Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T09:00:49.927Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:01:19.791Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:01:19.917Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:01:49.793Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:01:49.926Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:02:19.795Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:02:19.922Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:02:49.797Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:02:49.911Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:03:19.798Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:03:19.920Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:03:49.799Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:03:49.911Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:04:19.801Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:04:19.927Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:04:49.803Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:04:49.927Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:05:19.806Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:05:19.935Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:05:49.807Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:05:49.942Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:06:19.808Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:06:19.930Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:06:49.810Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:06:49.938Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:07:19.812Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:07:19.939Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:07:49.814Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:07:49.938Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:08:19.814Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:08:19.941Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:08:49.816Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:08:49.942Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:09:19.818Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:09:19.944Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:09:49.820Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:09:49.945Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:10:19.821Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:10:19.944Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:10:49.822Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:10:49.949Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:11:19.823Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:11:19.953Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:11:49.824Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:11:49.951Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:12:19.824Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:12:19.947Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:12:49.824Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:12:49.950Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:13:19.824Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:13:19.953Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:13:49.825Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:13:49.952Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:14:19.827Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:14:19.950Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:14:49.828Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:14:49.954Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:15:19.827Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:15:19.956Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:15:49.827Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:15:49.956Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:16:19.829Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:16:19.953Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:16:49.831Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:16:49.967Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:17:19.832Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:17:19.959Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:17:49.834Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:17:49.961Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:18:19.836Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:18:19.962Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:18:49.838Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:18:49.965Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:19:19.839Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:19:19.977Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:19:49.841Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:19:49.966Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:20:19.844Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:20:19.972Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:20:49.845Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:20:49.982Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:21:19.847Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:21:19.974Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:21:49.849Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:21:49.984Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:22:19.850Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:22:19.976Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:22:49.851Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:22:49.975Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:23:19.853Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:23:19.979Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:23:49.855Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:23:49.979Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:24:19.857Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:24:19.983Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:24:49.859Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:24:49.985Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:25:19.861Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:25:19.986Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:25:49.863Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:25:49.987Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:26:19.865Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:26:19.991Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:26:49.865Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T09:26:50.007Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:27:19.868Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:27:19.999Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:27:49.870Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:27:50.005Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:28:19.870Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:28:19.997Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:28:49.872Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:28:49.998Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:29:19.873Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:29:20.004Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:29:49.875Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:29:49.999Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:30:19.877Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:30:20.011Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:30:49.878Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T09:30:50.053Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:31:18.758Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:31:18.848Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+   Command port: 18790
+/bin/sh: openclaw: command not found
+[2026-03-14T09:31:48.850Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:31:48.986Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:32:18.851Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:32:18.979Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:32:48.851Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T09:32:48.994Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:33:18.852Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:33:18.985Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:33:48.854Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:33:48.979Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:34:18.855Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:34:18.977Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:34:48.856Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:34:48.983Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:35:18.857Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:35:18.983Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:35:48.858Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:35:48.987Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:36:18.859Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:36:18.986Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:36:48.860Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:36:48.990Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:37:18.861Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:37:18.988Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:37:48.862Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:37:48.989Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:38:18.864Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:38:18.993Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:38:48.866Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:38:49.000Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:39:18.866Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:39:18.992Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:39:48.866Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:39:48.994Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:40:18.865Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:40:18.992Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:40:48.865Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:40:48.993Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:41:18.867Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:41:18.997Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:41:48.867Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T09:41:48.997Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:42:18.869Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:42:18.990Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:42:48.869Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:42:48.999Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:43:18.870Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:43:19.000Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:43:48.872Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:43:49.003Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:44:18.873Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:44:19.008Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:44:48.875Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:44:49.003Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:45:18.876Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:45:19.005Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:45:48.877Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:45:49.003Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:46:18.879Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:46:19.008Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:46:48.881Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:46:49.005Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:47:18.883Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:47:19.011Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:47:48.884Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T09:47:49.027Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:48:18.885Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:48:19.029Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:48:48.888Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:48:49.006Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:49:18.890Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:49:19.034Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:49:48.891Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:49:49.016Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:50:18.898Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:50:19.026Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:50:48.901Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:50:49.014Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:51:18.903Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:51:19.034Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:51:48.904Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:51:49.032Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:52:18.906Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:52:19.034Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:52:48.908Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:52:49.033Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:53:18.910Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:53:19.055Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:53:48.912Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T09:53:49.040Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:54:18.914Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:54:19.048Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:54:48.915Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:54:49.042Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:55:18.916Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:55:19.044Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:55:48.918Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:55:49.046Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:56:18.918Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:56:19.045Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:56:48.918Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:56:49.046Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:57:18.919Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:57:19.049Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:57:48.922Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:57:49.049Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:58:18.922Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:58:19.052Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:58:48.924Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:58:49.077Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:59:18.924Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T09:59:19.062Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T09:59:48.926Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T09:59:49.055Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:00:18.929Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:00:19.059Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:00:48.931Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:00:49.057Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:01:18.932Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:01:19.059Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:01:48.934Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:01:49.061Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:02:18.937Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:02:19.064Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:02:48.938Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:02:49.067Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:03:18.941Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:03:19.075Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:03:48.943Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:03:49.071Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:04:18.944Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:04:19.077Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:04:48.947Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:04:49.078Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:05:18.949Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:05:19.084Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:05:48.951Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:05:49.079Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:06:18.952Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:06:19.093Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:06:48.954Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:06:49.081Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:07:18.955Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:07:19.088Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:07:48.956Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:07:49.078Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:08:18.958Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:08:19.086Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:08:48.959Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:08:49.088Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:09:18.961Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:09:19.097Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:09:48.963Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:09:49.098Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:10:18.965Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:10:19.097Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:10:48.966Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:10:49.087Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:11:18.967Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:11:19.100Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:11:48.969Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:11:49.094Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:12:18.970Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:12:19.104Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:12:48.970Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:12:49.100Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:13:18.971Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:13:19.103Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:13:48.972Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:13:49.101Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:14:18.973Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:14:19.084Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:14:48.974Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:14:49.097Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:15:18.974Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:15:19.104Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:15:48.974Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:15:49.102Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:16:18.977Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:16:19.108Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:16:48.979Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:16:49.107Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:17:18.981Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:17:19.111Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:17:48.983Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:17:49.106Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:18:18.984Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:18:19.114Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:18:48.986Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:18:49.113Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:19:18.989Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:19:19.119Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:19:48.991Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:19:49.110Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:20:18.994Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:20:19.132Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:20:48.997Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:20:49.119Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:21:18.999Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:21:19.128Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:21:49.000Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:21:49.131Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:22:19.002Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:22:19.130Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:22:49.004Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:22:49.130Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:23:19.005Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:23:19.131Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:23:49.006Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:23:49.134Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:24:19.008Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:24:19.145Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:24:49.009Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:24:49.138Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:25:19.011Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T10:25:19.150Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:25:49.014Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:25:49.141Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:26:19.016Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:26:19.146Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:26:49.018Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:26:49.143Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:27:19.020Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:27:19.156Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:27:49.021Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:27:49.144Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:28:19.021Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T10:28:19.159Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:28:49.021Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:28:49.149Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:29:19.022Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:29:19.155Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:29:49.025Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T10:29:49.141Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:30:19.026Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:30:19.165Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:30:49.027Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:30:49.156Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:31:19.029Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:31:19.155Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:31:49.031Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:31:49.160Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:32:19.032Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:32:19.164Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:32:49.034Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:32:49.158Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:33:19.036Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:33:19.165Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:33:49.038Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:33:49.168Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:34:19.039Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:34:19.165Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:34:49.041Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:34:49.168Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:35:19.042Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:35:19.170Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:35:49.045Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:35:49.171Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:36:19.046Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:36:19.183Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:36:49.048Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:36:49.183Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:37:19.049Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:37:19.175Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:37:49.051Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:37:49.182Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:38:19.056Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:38:19.183Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:38:49.059Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:38:49.171Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:39:19.061Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:39:19.187Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:39:49.063Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:39:49.190Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:40:19.064Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:40:19.196Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:40:49.064Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:40:49.192Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:41:19.066Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:41:19.202Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:41:49.069Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:41:49.197Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:42:19.069Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:42:19.198Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:42:49.070Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:42:49.196Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:43:19.072Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:43:19.201Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:43:49.075Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:43:49.203Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:44:19.076Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:44:19.201Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:44:49.078Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:44:49.202Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:45:19.080Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:45:19.205Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:45:49.082Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:45:49.211Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:46:19.083Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:46:19.212Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:46:49.084Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:46:49.219Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:47:19.086Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:47:19.223Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:47:49.089Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T10:47:49.216Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:48:19.092Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:48:19.218Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:48:49.094Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:48:49.220Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:49:19.095Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:49:19.221Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:49:49.097Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:49:49.228Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:50:19.099Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:50:19.217Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:50:49.101Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:50:49.232Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:51:19.102Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:51:19.230Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:51:49.104Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:51:49.233Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:52:19.106Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:52:19.233Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:52:49.105Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:52:49.238Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:52:55.418Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:52:55.506Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+   Command port: 18790
+/bin/sh: openclaw: command not found
+[2026-03-14T10:53:25.507Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T10:53:25.634Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:53:55.508Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:53:55.635Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:54:28.302Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:54:28.383Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+[WARN] Command port 18790 failed: listen EADDRINUSE: address already in use 0.0.0.0:18790 (remote control disabled)
+/bin/sh: openclaw: command not found
+[2026-03-14T10:54:58.386Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:54:58.511Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:55:28.387Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:55:28.517Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:55:58.388Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:55:58.514Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:56:28.389Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:56:28.522Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:56:58.391Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:56:58.521Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:57:28.391Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:57:28.522Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:57:58.391Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:57:58.521Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:58:28.391Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:58:28.515Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:58:58.392Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:58:58.520Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:59:28.394Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T10:59:28.527Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T10:59:58.396Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T10:59:58.529Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:00:28.397Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:00:28.525Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:00:58.399Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:00:58.529Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:01:28.401Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:01:28.534Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:01:58.403Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:01:58.531Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:02:28.405Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:02:28.526Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:02:58.406Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:02:58.543Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:03:28.407Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:03:28.535Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:03:58.408Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:03:58.537Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:04:28.408Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:04:28.531Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:04:58.410Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:04:58.539Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:05:28.410Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:05:28.540Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:05:58.411Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:05:58.542Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:06:28.412Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:06:28.542Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:06:58.413Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:06:58.535Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:07:28.415Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:07:28.545Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:07:58.415Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:07:58.543Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:08:28.417Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:08:28.557Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:08:58.420Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:08:58.538Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:09:28.422Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:09:28.536Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:09:58.422Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:09:58.563Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:10:28.424Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:10:28.553Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:10:58.426Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:10:58.555Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:11:28.428Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:11:28.559Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:11:58.433Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:11:58.563Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:12:28.436Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:12:28.578Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:12:58.437Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:12:58.570Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:13:28.439Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:13:28.571Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:13:58.441Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:13:58.579Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:14:28.443Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:14:28.570Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:14:58.445Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:14:58.576Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:15:28.447Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:15:28.576Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:15:58.449Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:15:58.578Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:16:28.451Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:16:28.591Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:16:58.453Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:16:58.589Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:17:28.455Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:17:28.579Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:17:58.455Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:17:58.582Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:18:28.456Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:18:28.596Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:18:58.458Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:18:58.587Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:19:28.459Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:19:28.588Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:19:58.460Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:19:58.589Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:20:28.461Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:20:28.592Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:20:58.461Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:20:58.584Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:21:28.461Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:21:28.586Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:21:58.461Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:21:58.604Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:22:28.462Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:22:28.601Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:22:58.463Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:22:58.593Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:23:28.464Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:23:28.595Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:23:58.464Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:23:58.603Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:24:28.465Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:24:28.591Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:24:58.468Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:24:58.595Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:25:28.470Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:25:28.596Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:25:58.471Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:25:58.599Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:26:28.473Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:26:28.601Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:26:58.475Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:26:58.600Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:27:28.477Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:27:28.605Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:27:58.479Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:27:58.605Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:28:28.481Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T11:28:28.621Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:28:58.483Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:28:58.617Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:29:28.483Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:29:28.614Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:29:58.484Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:29:58.619Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:30:28.487Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:30:28.612Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:30:58.488Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:30:58.608Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:31:28.491Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:31:28.616Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:31:58.493Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:31:58.620Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:32:28.493Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:32:28.618Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:32:58.495Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:32:58.630Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:33:28.498Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:33:28.640Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:33:58.500Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:33:58.643Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:34:28.500Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:34:28.626Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:34:58.499Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:34:58.622Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:35:28.499Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:35:28.627Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:35:58.502Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:35:58.631Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:36:28.502Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:36:28.627Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:36:58.504Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:36:58.634Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:37:28.505Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:37:28.632Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:37:58.505Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:37:58.626Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:38:28.507Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:38:28.629Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:38:58.508Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:38:58.639Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:39:28.508Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:39:28.637Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:39:58.510Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:39:58.637Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:40:28.511Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:40:28.635Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:40:58.511Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:40:58.639Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:41:28.512Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:41:28.637Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:41:58.514Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:41:58.645Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:42:28.516Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:42:28.639Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:42:58.518Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:42:58.629Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:43:28.519Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:43:28.646Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:43:58.521Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:43:58.649Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:44:28.523Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:44:28.660Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:44:58.525Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:44:58.663Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:45:28.527Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:45:28.641Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:45:58.530Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:45:58.655Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:46:28.532Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:46:28.658Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:46:58.532Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:46:58.661Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:47:28.534Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:47:28.662Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:47:58.534Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:47:58.660Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:48:28.536Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:48:28.661Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:48:58.538Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:48:58.669Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:49:28.540Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:49:28.669Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:49:58.543Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:49:58.670Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:50:28.544Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:50:28.672Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:50:58.546Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:50:58.674Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:51:28.548Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:51:28.671Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:51:58.550Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:51:58.677Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:52:28.552Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:52:28.679Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:52:58.554Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:52:58.680Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:53:28.555Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:53:28.683Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:53:58.557Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:53:58.683Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:54:28.559Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:54:28.685Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:54:58.560Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:54:58.700Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:55:28.562Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:55:28.691Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:55:58.564Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:55:58.692Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:56:28.566Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:56:28.689Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:56:58.566Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:56:58.693Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:57:28.568Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:57:28.692Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:57:58.570Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:57:58.697Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:58:28.572Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T11:58:28.681Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:58:58.574Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:58:58.705Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:59:28.576Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:59:28.697Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T11:59:58.579Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T11:59:58.712Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:00:28.581Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:00:28.711Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:00:58.582Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:00:58.713Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:01:28.583Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:01:28.704Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:01:58.585Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:01:58.694Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:02:28.587Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:02:28.713Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:02:58.589Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:02:58.715Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:03:28.591Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:03:28.719Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:03:58.593Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:03:58.721Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:04:28.595Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:04:28.715Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:04:58.596Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:04:58.726Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:05:28.598Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:05:28.735Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:05:58.599Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:05:58.725Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:06:28.601Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:06:28.724Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:06:58.603Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:06:58.731Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:07:28.602Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:07:28.728Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:07:58.604Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:07:58.732Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:08:28.607Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:08:28.750Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:08:58.608Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:08:58.739Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:09:28.610Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:09:28.736Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:09:58.611Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:09:58.748Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:10:28.613Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:10:28.751Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:10:58.615Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:10:58.742Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:11:28.617Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:11:28.744Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:11:58.618Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:11:58.741Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:12:28.617Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:12:28.748Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:12:58.617Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:12:58.744Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:13:28.619Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:13:28.749Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:13:58.621Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:13:58.740Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:14:28.622Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:14:28.749Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:14:58.624Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:14:58.753Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:15:28.627Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:15:28.761Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:15:58.627Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:15:58.756Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:16:28.628Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:16:28.748Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:16:58.627Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:16:58.756Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:17:28.630Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:17:28.757Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:17:58.631Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:17:58.760Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:18:28.633Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:18:28.761Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:18:58.635Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:18:58.763Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:19:28.637Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:19:28.770Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:19:58.638Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:19:58.749Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:20:28.638Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:20:28.763Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:20:58.640Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:20:58.767Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:21:28.641Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:21:28.775Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:21:58.642Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:21:58.759Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:22:28.644Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:22:28.773Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:22:58.646Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:22:58.767Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:23:28.648Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:23:28.771Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:23:58.649Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:23:58.768Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:24:28.650Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:24:28.779Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:24:58.650Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:24:58.778Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:25:28.652Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:25:28.762Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:25:58.654Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:25:58.783Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:26:28.656Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:26:28.792Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:26:58.657Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:26:58.794Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:27:28.660Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:27:28.791Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:27:58.661Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:27:58.790Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:28:28.663Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:28:28.792Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:28:58.666Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:28:58.794Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:29:28.667Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:29:28.793Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:29:58.669Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:29:58.790Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:30:28.671Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:30:28.798Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:30:58.673Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:30:58.800Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:31:28.675Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:31:28.803Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:31:58.677Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:31:58.804Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:32:28.678Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:32:28.807Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:32:58.678Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:32:58.805Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:33:28.681Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:33:28.807Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:33:58.683Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:33:58.812Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:34:28.683Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:34:28.810Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:34:58.683Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:34:58.810Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:35:28.686Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:35:28.814Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:35:58.687Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:35:58.817Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:36:28.689Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:36:28.818Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:36:58.691Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:36:58.819Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:37:28.693Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:37:28.825Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:37:58.695Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:37:58.806Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:38:28.696Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:38:28.822Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:38:58.697Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:38:58.828Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:39:28.699Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:39:28.829Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:39:58.701Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:39:58.829Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:40:28.703Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:40:28.831Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:40:58.705Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:40:58.826Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:41:28.708Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:41:28.830Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:41:58.708Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:41:58.835Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:42:28.708Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:42:28.846Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:42:58.708Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:42:58.836Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:43:28.710Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:43:28.844Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:43:58.713Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:43:58.843Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:44:28.714Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:44:28.843Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:44:58.717Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:44:58.843Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:45:28.716Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:45:28.843Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:45:58.718Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:45:58.852Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:46:28.720Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:46:28.842Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:46:58.722Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:46:58.849Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:47:28.724Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:47:28.861Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:47:58.724Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:47:58.862Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:48:28.726Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:48:28.856Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:48:58.728Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:48:58.857Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:49:28.728Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:49:28.856Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:49:58.730Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:49:58.860Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:50:28.733Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:50:28.859Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:50:58.733Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:50:58.862Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:51:28.735Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:51:28.857Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:51:58.736Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:51:58.863Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:52:28.737Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:52:28.866Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:52:58.739Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:52:58.878Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:53:28.742Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:53:28.856Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:53:58.743Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:53:58.870Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:54:28.746Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:54:28.868Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:54:58.748Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:54:58.876Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:55:28.750Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:55:28.877Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:55:58.751Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:55:58.880Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:56:28.753Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:56:28.879Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:56:58.756Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:56:58.880Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:57:28.758Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:57:28.887Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:57:58.761Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:57:58.887Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:58:28.762Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:58:28.888Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:58:58.459Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:58:58.676Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+   Command port: 18790
+/bin/sh: openclaw: command not found
+[2026-03-14T12:59:28.678Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T12:59:28.822Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T12:59:58.679Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T12:59:58.809Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:00:28.687Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T13:00:28.818Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:00:42.275Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:00:42.360Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+   Command port: 18790
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:00:52.363Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:00:52.446Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+[WARN] Command port 18790 failed: listen EADDRINUSE: address already in use 0.0.0.0:18790 (remote control disabled)
+/bin/sh: openclaw: command not found
+[2026-03-14T13:01:22.448Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:01:22.579Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:01:52.449Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:01:52.578Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:02:22.450Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:02:22.578Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:02:52.450Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:02:52.582Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:03:22.451Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:03:22.582Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:03:52.451Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:03:52.580Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:04:22.452Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:04:22.584Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:04:52.453Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:04:52.593Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:05:22.453Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:05:22.576Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:05:52.453Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:05:52.596Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:06:22.456Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:06:22.592Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:06:52.457Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:06:52.589Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:07:22.458Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:07:22.588Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:07:52.458Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:07:52.586Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:08:22.459Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:08:22.584Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:08:52.459Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:08:52.586Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:09:22.459Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:09:22.571Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:09:52.461Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:09:52.589Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:10:22.463Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:10:22.596Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:10:52.465Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:10:52.588Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:11:22.466Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:11:22.595Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:11:52.467Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:11:52.594Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:12:22.468Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:12:22.598Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:12:52.470Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:12:52.599Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:13:22.470Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:13:22.599Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:13:52.470Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:13:52.601Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:14:22.470Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:14:22.622Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:14:52.471Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:14:52.604Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:15:22.473Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:15:22.611Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:15:52.474Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:15:52.604Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:16:22.476Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:16:22.605Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:16:52.478Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:16:52.616Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:17:22.479Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:17:22.619Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:17:52.481Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:17:52.617Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:18:22.483Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:18:22.607Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:18:52.485Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:18:52.624Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:19:22.487Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:19:22.625Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:19:52.489Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:19:52.633Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:20:22.491Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:20:22.622Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:20:52.494Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:20:52.627Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:21:22.496Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:21:22.631Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:21:52.497Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:21:52.636Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:22:22.498Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:22:22.628Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:22:52.498Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:22:52.638Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:23:22.498Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:23:22.629Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:23:52.500Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:23:52.630Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:24:22.501Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:24:22.634Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:24:52.501Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:24:52.632Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:25:22.501Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:25:22.630Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:25:52.502Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:25:52.634Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:26:22.504Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:26:22.635Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:26:52.504Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:26:52.634Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:27:22.506Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:27:22.638Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:27:52.508Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:27:52.634Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:28:22.508Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:28:22.633Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:28:52.510Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:28:52.649Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:29:22.512Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:29:22.642Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:29:52.512Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:29:52.641Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:30:22.513Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:30:22.644Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:30:52.515Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:30:52.646Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:31:22.516Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:31:22.631Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:31:52.517Z] Heartbeat: gw=true, mem=91%, models=0, profiles=3
+[2026-03-14T13:31:52.647Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:32:22.518Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:32:22.635Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:32:52.520Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:32:52.643Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:33:22.522Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:33:22.653Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:33:52.522Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:33:52.656Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:34:22.524Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:34:22.652Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:34:52.525Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:34:52.656Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:35:22.528Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:35:22.659Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:35:52.528Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:35:52.658Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:36:22.531Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:36:22.659Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:36:52.531Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:36:52.656Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:37:22.533Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:37:22.645Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:37:52.534Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:37:52.646Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:38:22.535Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:38:22.664Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:38:52.536Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:38:52.663Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:39:22.538Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:39:22.663Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:39:52.539Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:39:52.670Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:40:22.540Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:40:22.672Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:40:52.542Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:40:52.672Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:41:22.544Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:41:22.673Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:41:52.546Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:41:52.674Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:42:22.548Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:42:22.677Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:42:52.551Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:42:52.678Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:43:22.552Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:43:22.681Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:43:52.553Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:43:52.679Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:44:22.555Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:44:22.681Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:44:52.557Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:44:52.684Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:45:22.559Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:45:22.681Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:45:52.561Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:45:52.692Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:46:22.564Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:46:22.693Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:46:52.564Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:46:52.695Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:47:22.565Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:47:22.695Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:47:52.567Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:47:52.694Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:48:22.568Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:48:22.697Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:48:52.569Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:48:52.699Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:49:22.570Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:49:22.700Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:49:52.571Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:49:52.713Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:50:22.572Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:50:22.702Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:50:52.572Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:50:52.704Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+🦞 Heartbeat v2 started for [simondemacbook-air-7]
+   Interval: 30s
+   OpenClaw dir: /Users/simon/.openclaw
+   Status file: /Users/simon/claw-fleet/shared/fleet-status.json
+   OpenClaw cmd: openclaw
+/bin/sh: openclaw: command not found
+[2026-03-14T13:51:21.385Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T13:51:21.523Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+   Command port: 18790
+/bin/sh: openclaw: command not found
+[2026-03-14T13:51:51.525Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:51:51.653Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:52:21.525Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:52:21.639Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:52:51.526Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:52:51.652Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:53:21.527Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:53:21.654Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:53:51.527Z] Heartbeat: gw=true, mem=92%, models=0, profiles=3
+[2026-03-14T13:53:51.652Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:54:21.528Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:54:21.655Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:54:51.529Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:54:51.655Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:55:21.530Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:55:21.658Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:55:51.531Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:55:51.656Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:56:21.532Z] Heartbeat: gw=true, mem=93%, models=0, profiles=3
+[2026-03-14T13:56:21.647Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:56:51.532Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:56:51.665Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:57:21.534Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:57:21.665Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+[2026-03-14T13:57:51.536Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:57:51.672Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T13:58:21.538Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T13:58:21.668Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T13:58:51.540Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:58:51.667Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T13:59:21.542Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T13:59:21.673Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T13:59:51.544Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T13:59:51.685Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:00:21.546Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T14:00:21.684Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:00:51.548Z] Heartbeat: gw=true, mem=94%, models=0, profiles=3
+[2026-03-14T14:00:51.694Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:01:21.550Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T14:01:21.702Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:01:51.552Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T14:01:51.694Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:02:21.552Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T14:02:21.698Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:02:51.554Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T14:02:51.699Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:03:21.555Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T14:03:21.699Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:03:51.557Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T14:03:51.686Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:04:21.558Z] Heartbeat: gw=true, mem=99%, models=0, profiles=3
+[2026-03-14T14:04:21.695Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:04:51.560Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T14:04:51.699Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:05:21.563Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T14:05:21.696Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:05:51.564Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:05:51.703Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:06:21.566Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:06:21.699Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:06:51.567Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:06:51.704Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:07:21.566Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:07:21.693Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:07:51.568Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:07:51.704Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:08:21.570Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:08:21.705Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:08:51.572Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:08:51.706Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:09:21.572Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:09:21.700Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:09:51.573Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:09:51.700Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:10:21.573Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:10:21.698Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:10:51.575Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:10:51.705Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:11:21.577Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:11:21.707Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:11:51.579Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T14:11:51.791Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:12:21.580Z] Heartbeat: gw=true, mem=98%, models=0, profiles=3
+[2026-03-14T14:12:21.711Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:12:51.582Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:12:51.723Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:13:21.583Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T14:13:21.719Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:13:51.585Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:13:51.726Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:14:21.587Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:14:21.717Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:14:51.587Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:14:51.721Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:15:21.589Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:15:21.706Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:15:51.591Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:15:51.719Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:16:21.593Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:16:21.718Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:16:51.595Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:16:51.723Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:17:21.597Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T14:17:21.729Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:17:51.598Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:17:51.733Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:18:21.600Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:18:21.731Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:18:51.601Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:18:51.742Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:19:21.603Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:19:21.733Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:19:51.605Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:19:51.734Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:20:21.605Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:20:21.737Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:20:51.606Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:20:51.734Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:21:21.608Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:21:21.737Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:21:51.610Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:21:51.750Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+[2026-03-14T14:22:13.112Z] CMD: version -> openclaw --version (timeout: 30000ms)
+[2026-03-14T14:22:13.153Z] CMD: update -> npm install -g openclaw@latest && openclaw --version (timeout: 180000ms)
+[2026-03-14T14:22:13.194Z] CMD: config-set -> openclaw config set channels.telegram.bot_token "REDACTED_BOT_TOKEN" (timeout: 30000ms)
+[2026-03-14T14:22:13.231Z] CMD: config-set -> openclaw config set channels.telegram.groupPolicy "open" (timeout: 30000ms)
+[2026-03-14T14:22:13.268Z] CMD: restart -> openclaw gateway stop ; nohup openclaw gateway >/dev/null 2>&1 & echo Gateway restarted (timeout: 30000ms)
+[2026-03-14T14:22:16.331Z] CMD: version -> openclaw --version (timeout: 30000ms)
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:22:21.613Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:22:21.742Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:22:51.615Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:22:51.751Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:23:21.616Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:23:21.746Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:23:51.618Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:23:51.759Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:24:21.620Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:24:21.750Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:24:51.622Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:24:51.764Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:25:21.624Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:25:21.748Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:25:51.625Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:25:51.755Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:26:21.627Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:26:21.754Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:26:51.628Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:26:51.769Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:27:21.631Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:27:21.760Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:27:51.633Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:27:51.762Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:28:21.634Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:28:21.765Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:28:51.637Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:28:51.772Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:29:21.639Z] Heartbeat: gw=true, mem=97%, models=0, profiles=3
+[2026-03-14T14:29:21.765Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:29:51.641Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:29:51.780Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:30:21.642Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:30:21.767Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:30:51.644Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:30:51.769Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:31:21.646Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:31:21.776Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:31:51.648Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:31:51.778Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:32:21.651Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:32:21.780Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:32:51.653Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:32:51.790Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:33:21.654Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:33:21.784Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:33:51.656Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:33:51.789Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:34:21.658Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:34:21.788Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:34:51.659Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:34:51.800Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:35:21.660Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:35:21.790Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:35:51.663Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:35:51.798Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:36:21.664Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:36:21.798Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:36:51.666Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:36:51.796Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:37:21.667Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:37:21.784Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:37:51.667Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:37:51.796Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:38:21.668Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:38:21.801Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:38:51.670Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:38:51.801Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:39:21.672Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:39:21.805Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:39:51.673Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:39:51.816Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:40:21.673Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:40:21.806Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:40:51.673Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:40:51.806Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:41:21.676Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:41:21.810Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:41:51.678Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:41:51.809Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:42:21.679Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:42:21.810Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:42:51.681Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:42:51.813Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:43:21.683Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:43:21.814Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:43:51.687Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:43:51.820Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:44:21.690Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:44:21.822Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:44:51.692Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:44:51.821Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:45:21.694Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:45:21.827Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:45:51.696Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:45:51.838Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:46:21.698Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:46:21.826Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:46:51.700Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:46:51.840Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:47:21.702Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:47:21.834Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:47:51.703Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:47:51.834Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:48:21.706Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:48:21.836Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:48:51.706Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:48:51.837Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:49:21.709Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:49:21.839Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:49:51.711Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:49:51.839Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:50:21.712Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:50:21.845Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:50:51.714Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:50:51.857Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:51:21.716Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:51:21.852Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:51:51.718Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:51:51.848Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:52:21.719Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:52:21.855Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:52:51.721Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:52:51.853Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:53:21.722Z] Heartbeat: gw=true, mem=95%, models=0, profiles=3
+[2026-03-14T14:53:21.853Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:53:51.723Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:53:51.847Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:54:21.724Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:54:21.857Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:54:51.726Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:54:51.863Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:55:21.726Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:55:21.859Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:55:51.729Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:55:51.870Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:56:21.731Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:56:21.862Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:56:51.731Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:56:51.879Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json
+/bin/sh: openclaw: command not found
+/bin/sh: openclaw: command not found
+[2026-03-14T14:57:21.733Z] Heartbeat: gw=true, mem=96%, models=0, profiles=3
+[2026-03-14T14:57:21.865Z] Heartbeat written: /Users/simon/claw-fleet/shared/heartbeats/simondemacbook-air-7.json

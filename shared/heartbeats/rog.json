@@ -1,0 +1,303 @@
+{
+  "agent_id": "rog",
+  "heartbeat_version": 5,
+  "timestamp": "2026-03-14T15:38:00.359Z",
+  "gateway_alive": true,
+  "system": {
+    "hostname": "Rogai395",
+    "platform": "win32",
+    "arch": "x64",
+    "uptime": 3011,
+    "memory": {
+      "total": 126615,
+      "free": 90349,
+      "usage_percent": 29
+    },
+    "cpu_count": 32,
+    "cpu_model": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S          ",
+    "load": [
+      0,
+      0,
+      0
+    ],
+    "tailscale_ip": "100.124.216.19"
+  },
+  "openclaw_version": "OpenClaw 2026.3.13 (61d171a)",
+  "openclaw": {
+    "config": null,
+    "models": [
+      {
+        "provider": "lmstudio",
+        "id": "qwen/qwen3.5-35b-a3b",
+        "name": "Qwen 3.5 35B (LM Studio)",
+        "contextWindow": 16384,
+        "maxTokens": 4096
+      },
+      {
+        "provider": "zai",
+        "id": "glm-5",
+        "name": "GLM-5",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      },
+      {
+        "provider": "zai",
+        "id": "glm-4.7",
+        "name": "GLM-4.7",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      },
+      {
+        "provider": "zai",
+        "id": "glm-4.7-flash",
+        "name": "GLM-4.7 Flash",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      },
+      {
+        "provider": "zai",
+        "id": "glm-4.7-flashx",
+        "name": "GLM-4.7 FlashX",
+        "contextWindow": 204800,
+        "maxTokens": 131072
+      }
+    ],
+    "auth_profiles": {
+      "anthropic:default": {
+        "type": "api_key",
+        "provider": "anthropic",
+        "has_key": true
+      },
+      "zai:default": {
+        "type": "api_key",
+        "provider": "zai",
+        "has_key": true
+      },
+      "openai-codex:default": {
+        "type": "oauth",
+        "provider": "openai-codex",
+        "has_key": true
+      }
+    },
+    "usage_stats": {
+      "anthropic:default": {
+        "lastUsed": "2026-02-26T13:12:52.467Z",
+        "errorCount": 6,
+        "lastFailureAt": "2026-02-27T07:04:44.356Z"
+      },
+      "zai:default": {
+        "lastUsed": "2026-03-11T16:39:26.476Z",
+        "errorCount": 0,
+        "lastFailureAt": "2026-02-11T07:50:38.117Z"
+      },
+      "openai-codex:default": {
+        "lastUsed": "2026-03-14T11:12:20.528Z",
+        "errorCount": 0,
+        "lastFailureAt": null
+      }
+    },
+    "sessions": {
+      "list": [
+        {
+          "key": "agent:main:main",
+          "sessionId": "74ffa794-06f4-42d2-bddb-0b0486a16270",
+          "model": "gpt-5.4",
+          "modelProvider": "openai-codex",
+          "channel": "webchat",
+          "chatType": "direct",
+          "updatedAt": "2026-03-13T11:00:07.290Z",
+          "authProfile": "openai-codex:default",
+          "contextTokens": 272000,
+          "compactionCount": 0,
+          "fileSize": 38279
+        },
+        {
+          "key": "agent:main:telegram:direct:6346780385",
+          "sessionId": "1cc1edfc-731c-44d5-aaa6-fb0855bdbce8",
+          "model": "gpt-5.4",
+          "modelProvider": "openai-codex",
+          "channel": "telegram",
+          "chatType": "direct",
+          "updatedAt": "2026-03-13T12:37:53.876Z",
+          "authProfile": "openai-codex:default",
+          "contextTokens": 272000,
+          "compactionCount": 0,
+          "fileSize": 1535700
+        },
+        {
+          "key": "agent:main:telegram:slash:6346780385",
+          "sessionId": "3927f9b9-a618-445e-85b5-54653a4bb256",
+          "model": null,
+          "modelProvider": null,
+          "channel": "unknown",
+          "chatType": "unknown",
+          "updatedAt": "2026-02-28T13:59:52.967Z",
+          "authProfile": null,
+          "contextTokens": 0,
+          "compactionCount": 0,
+          "fileSize": 0
+        },
+        {
+          "key": "agent:main:telegram:group:-1003534331530:topic:1",
+          "sessionId": "2550fd1b-639c-4a7d-acd8-1ede0bdd2aaa",
+          "model": "gpt-5.4",
+          "modelProvider": "openai-codex",
+          "channel": "telegram",
+          "chatType": "group",
+          "updatedAt": "2026-03-14T11:12:20.539Z",
+          "authProfile": "openai-codex:default",
+          "contextTokens": 272000,
+          "compactionCount": 0,
+          "fileSize": 17180
+        }
+      ],
+      "total": 4,
+      "active": 4,
+      "files": 3,
+      "deleted": 6,
+      "reset": 7
+    },
+    "memory_db_size": 69632,
+    "gateway": {
+      "port": 18789,
+      "mode": "local",
+      "bind": "loopback",
+      "tailscale": "off"
+    },
+    "plugins": [
+      "telegram",
+      "skillhub"
+    ],
+    "cron_jobs": [],
+    "primary_model": "openai-codex/gpt-5.4",
+    "fallback_models": [
+      "lmstudio/qwen/qwen3.5-35b-a3b"
+    ],
+    "workspace": "C:\\Users\\Rog\\clawd",
+    "channels": {
+      "telegram": {
+        "enabled": true
+      }
+    },
+    "skills": [
+      {
+        "name": "coding-agent",
+        "description": "Delegate coding tasks to Codex, Claude Code, or Pi agents via background process. Use when: (1) building/creating new fe",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "healthcheck",
+        "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security aud",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "openai-whisper",
+        "description": "Local speech-to-text with the Whisper CLI (no API key).",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "skill-creator",
+        "description": "Create, edit, improve, or audit AgentSkills. Use when creating a new skill from scratch or when asked to improve, review",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "summarize",
+        "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "video-frames",
+        "description": "Extract frames or short clips from videos using ffmpeg.",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "weather",
+        "description": "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecast",
+        "source": "openclaw-bundled"
+      },
+      {
+        "name": "Agent Browser",
+        "description": "A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type,",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "antigravity-retry",
+        "description": "Watch Antigravity or another Windows desktop app for a fixed Retry button and click it automatically. Use when the user ",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "find-skills",
+        "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is th",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "freeride",
+        "description": "Manages free AI models from OpenRouter for OpenClaw. Automatically ranks models by quality, configures fallbacks for rat",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "self-improvement",
+        "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "tavily",
+        "description": "AI-optimized web search via Tavily API. Returns concise, relevant results for AI agents.",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "xiaohongshu",
+        "description": "小红书全能助手 — 文案生成、封面制作、内容发布与管理。当用户要求写小红书笔记、生成小红书文案/标题/封面、发小红书、搜索小红书、评论点赞收藏等任何小红书相关操作时使用。支持一站式从文案创作到自动发布的完整流程。封面AI生图需配置可选环境变",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "xiaohongshu-mcp",
+        "description": "Automate Xiaohongshu (RedNote) content operations using a Python client for the xiaohongshu-mcp server. Use for: (1) Pub",
+        "source": "openclaw-workspace"
+      },
+      {
+        "name": "youtube-watcher",
+        "description": "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its conte",
+        "source": "openclaw-workspace"
+      }
+    ],
+    "token_usage": {
+      "today": {
+        "input": 25894,
+        "output": 325,
+        "cacheRead": 19584,
+        "total": 45803,
+        "cost": 0.074506,
+        "requests": 4
+      },
+      "days30": {
+        "input": 1776451,
+        "output": 42116,
+        "cacheRead": 13299200,
+        "total": 15117767,
+        "cost": 4.822385,
+        "requests": 256
+      }
+    },
+    "command_log_entries": 3,
+    "soul_file": {
+      "label": "artist Soul",
+      "path": "C:\\Users\\Rog\\claw-fleet\\shared\\souls\\artist.md",
+      "relativePath": "shared/souls/artist.md",
+      "content": "# 美术虾 - 视觉内容生成\n\n你是 Simon AI 团队的美术虾，负责所有视觉素材的生成。\n\n## 职责\n1. 读取编剧虾的分镜描述（claw-shared/剧本/）\n2. 为每个场景生成高质量 AI 绘图 prompt\n3. 调用 Stable Diffusion / Midjourney 生成画面\n4. 保证同一项目的视觉风格一致性\n5. 产出保存到 claw-shared/素材库/项目名/\n\n## 工具\n- Stable Diffusion WebUI（本地）\n- Midjourney（API / Discord）\n- ComfyUI（复杂工作流）\n\n## 输出规格\n- 横屏：1920x1080（B站/YouTube）\n- 竖屏：1080x1920（抖音/小红书）\n- 格式：PNG（高质量）或 JPG（发布用）\n\n## 风格指南\n- 同一项目使用统一的 seed 和 style prompt\n- 科幻风格参考：赛博朋克 / 硬科幻 / 太空歌剧（按项目需求）\n- 每张图附带 prompt 记录文件，方便后续复用\n"
+    },
+    "memory_file": {
+      "label": "rog Memory",
+      "path": "C:\\Users\\Rog\\claw-fleet\\shared\\memory\\rog.md",
+      "relativePath": "shared/memory/rog.md",
+      "content": ""
+    },
+    "bot_config": {
+      "synced": false,
+      "expected": false,
+      "current": null
+    }
+  },
+  "cmd_port": 18790,
+  "local_ip": "198.18.0.1"
+}
