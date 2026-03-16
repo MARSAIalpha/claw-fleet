@@ -164,8 +164,50 @@ if (Test-Path $skillsSource) {
     Write-Host "  Skills 已链接 ✓" -ForegroundColor Green
 }
 
-# ══════ 5. 注册 Windows 计划任务 ══════
-Write-Host "[5/6] 注册自启动服务..." -ForegroundColor Yellow
+# ══════ 5. 配置 SSH（舰队调度必需）══════
+Write-Host "[5/7] 配置 SSH 服务..." -ForegroundColor Yellow
+
+# 检查并安装 OpenSSH Server
+$sshd = Get-Service sshd -ErrorAction SilentlyContinue
+if (-not $sshd) {
+    Write-Host "  安装 OpenSSH Server..."
+    Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0 | Out-Null
+    Write-Host "  OpenSSH Server 已安装 ✓" -ForegroundColor Green
+}
+
+# 启动并设为自动
+Start-Service sshd -ErrorAction SilentlyContinue
+Set-Service -Name sshd -StartupType Automatic
+Write-Host "  SSH 服务已启动 ✓" -ForegroundColor Green
+
+# 添加总控虾公钥
+$authKeysPath = "C:\ProgramData\ssh\administrators_authorized_keys"
+$clawFleetKeys = "$WorkspaceBase\claw-fleet\shared\keys\macbook.pub"
+
+if (Test-Path $clawFleetKeys) {
+    $macbookKey = Get-Content $clawFleetKeys -Raw
+    $macbookKey = $macbookKey.Trim()
+    $existing = ""
+    if (Test-Path $authKeysPath) {
+        $existing = Get-Content $authKeysPath -Raw -ErrorAction SilentlyContinue
+    }
+    if ($existing -notlike "*$macbookKey*") {
+        Add-Content -Path $authKeysPath -Value $macbookKey
+        # 修复权限（Windows OpenSSH 要求）
+        icacls $authKeysPath /inheritance:r /grant "SYSTEM:(F)" /grant "Administrators:(F)" | Out-Null
+        Write-Host "  总控虾公钥已添加 ✓" -ForegroundColor Green
+    } else {
+        Write-Host "  总控虾公钥已存在 ✓" -ForegroundColor Green
+    }
+} else {
+    Write-Host "  提示: 请将总控虾(macbook)的公钥添加到 $authKeysPath" -ForegroundColor Yellow
+    Write-Host "    在总控虾上运行: cat ~/.ssh/id_ed25519.pub"
+    Write-Host "    然后将输出追加到 $authKeysPath"
+    Write-Host "    并执行: icacls $authKeysPath /inheritance:r /grant 'SYSTEM:(F)' /grant 'Administrators:(F)'"
+}
+
+# ══════ 6. 注册 Windows 计划任务 ══════
+Write-Host "[6/7] 注册自启动服务..." -ForegroundColor Yellow
 
 $taskName = "OpenClaw-$AgentId"
 
@@ -214,7 +256,7 @@ Register-ScheduledTask `
 
 Write-Host "  心跳监控任务已注册 ✓" -ForegroundColor Green
 
-# ══════ 6. 完成 ══════
+# ══════ 7. 完成 ══════
 Write-Host "`n════════════════════════════════════════" -ForegroundColor Green
 Write-Host "🦞 $AgentName 节点部署完成！" -ForegroundColor Green
 Write-Host "════════════════════════════════════════`n" -ForegroundColor Green

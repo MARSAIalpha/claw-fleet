@@ -212,8 +212,50 @@ if [ -d "${CLAW_SHARED}/../claw-fleet/shared/skills" ]; then
   echo -e "  Skills 已链接 ${GREEN}✓${NC}"
 fi
 
-# ══════ 5. 注册自启动服务 ══════
-echo -e "${YELLOW}[5/6] 注册自启动服务...${NC}"
+# ══════ 5. 配置 SSH（舰队调度必需）══════
+echo -e "${YELLOW}[5/7] 配置 SSH 服务...${NC}"
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  # macOS: 开启远程登录
+  if systemsetup -getremotelogin 2>/dev/null | grep -q "On"; then
+    echo -e "  远程登录已开启 ${GREEN}✓${NC}"
+  else
+    echo -e "  ${YELLOW}请手动开启远程登录:${NC}"
+    echo "    系统设置 → 通用 → 共享 → 远程登录 → 开启"
+  fi
+else
+  # Linux: 启用 sshd
+  if systemctl is-active sshd &>/dev/null || systemctl is-active ssh &>/dev/null; then
+    echo -e "  SSH 服务已运行 ${GREEN}✓${NC}"
+  else
+    echo "  启动 SSH 服务..."
+    sudo systemctl enable --now sshd 2>/dev/null || sudo systemctl enable --now ssh 2>/dev/null || true
+    echo -e "  SSH 服务已启动 ${GREEN}✓${NC}"
+  fi
+fi
+
+# 确保 authorized_keys 包含总控虾公钥
+MACBOOK_PUBKEY_URL="https://raw.githubusercontent.com/MARSAIalpha/claw-fleet/main/shared/keys/macbook.pub"
+AUTH_KEYS="$HOME/.ssh/authorized_keys"
+mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
+
+if [ -f "${CLAW_SHARED}/../claw-fleet/shared/keys/macbook.pub" ]; then
+  MACBOOK_KEY=$(cat "${CLAW_SHARED}/../claw-fleet/shared/keys/macbook.pub")
+  if ! grep -qF "$MACBOOK_KEY" "$AUTH_KEYS" 2>/dev/null; then
+    echo "$MACBOOK_KEY" >> "$AUTH_KEYS"
+    chmod 600 "$AUTH_KEYS"
+    echo -e "  总控虾公钥已添加 ${GREEN}✓${NC}"
+  else
+    echo -e "  总控虾公钥已存在 ${GREEN}✓${NC}"
+  fi
+else
+  echo -e "  ${YELLOW}提示: 请将总控虾(macbook)的公钥添加到 $AUTH_KEYS${NC}"
+  echo "    在总控虾上运行: cat ~/.ssh/id_ed25519.pub"
+  echo "    然后将输出追加到本机的 $AUTH_KEYS"
+fi
+
+# ══════ 6. 注册自启动服务 ══════
+echo -e "${YELLOW}[6/7] 注册自启动服务...${NC}"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
   # macOS: 使用 launchd
@@ -316,7 +358,7 @@ EOUNIT
   echo -e "  systemd 服务已注册 ${GREEN}✓${NC}"
 fi
 
-# ══════ 6. 完成 ══════
+# ══════ 7. 完成 ══════
 echo ""
 echo -e "${GREEN}════════════════════════════════════════${NC}"
 echo -e "${GREEN}🦞 ${AGENT_NAME} 节点部署完成！${NC}"

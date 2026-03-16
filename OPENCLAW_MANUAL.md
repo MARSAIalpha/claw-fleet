@@ -332,8 +332,6 @@ openclaw dashboard
 ## 十五、Simon 的舰队配置速查
 
 - **配置文件**：`~/.openclaw/openclaw.json`
-- **Telegram 群组 Chat ID**：`-1003534331530`
-- **Simon 的 Telegram User ID**：`6346780385`
-- **Rog 电脑 Bot Token**：`REDACTED_BOT_TOKEN`
-- **VPS IP**：`122.152.215.102`
-- **VPS Syncthing Device ID**：`PWQNFIY-CQ7OTI5-7Y676LP-3BAFQHL-3N5PCWW-3GCTDIJ-X7S3M25-YWXBQQ3`
+- **Telegram 群组 Chat ID**：见 `fleet-config.json`
+- **Bot Token**：见 `fleet-config.json`（不要提交到 git）
+- **VPS IP / Syncthing Device ID**：见 `fleet-config.json`

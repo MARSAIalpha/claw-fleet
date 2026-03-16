@@ -485,8 +485,9 @@ function renderDashboard() {
     .section-blurb { font-size: 12px; color: var(--muted); margin-top: -10px; margin-bottom: 14px; }
 
     /* ── 表格 ── */
-    table { width: 100%; border-collapse: collapse; font-size: 13px; }
-    thead th { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border-strong); color: var(--muted); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; }
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 960px; }
+    thead th { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border-strong); color: var(--muted); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; white-space: nowrap; }
     tbody td { padding: 10px 10px; border-bottom: 1px solid var(--border-soft); vertical-align: middle; }
     .machine-row:hover td { background: rgba(0,113,227,0.03); }
     .machine-row td:first-child::before { content: '▸ '; color: var(--muted); font-size: 10px; }
@@ -501,10 +502,11 @@ function renderDashboard() {
     .badge.disabled, .badge.idle, .badge.off { color: #666a70; border-color: rgba(125,129,136,0.3); background: rgba(248,248,249,0.95); }
 
     /* ── 进度条 ── */
-    .bar-row { display: flex; align-items: center; gap: 8px; }
-    .bar-track { flex:0 0 60px; border: 1px solid rgba(17,24,39,0.1); border-radius: 999px; height: 7px; background: rgba(227,230,236,0.62); overflow: hidden; }
+    .bar-row { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+    .bar-track { flex:0 0 50px; border: 1px solid rgba(17,24,39,0.1); border-radius: 999px; height: 7px; background: rgba(227,230,236,0.62); overflow: hidden; }
     .bar-fill { height: 100%; border-radius: 999px; } .bar-fill.ok { background: #18a97a; } .bar-fill.warn { background: #d69a1d; } .bar-fill.over { background: #cc4545; }
     .bar-label { font-size: 11px; color: var(--muted); white-space: nowrap; }
+    td[data-cell="uptime"], td[data-cell="tokens"], td[data-cell="elapsed"], td[data-cell="cpu"] { white-space: nowrap; }
     .agent-name { font-weight: 600; font-size: 13px; } .meta { font-size: 11px; color: var(--muted); }
     .model-tag { display: inline-block; margin-top: 3px; padding: 1px 8px; font-size: 10px; border-radius: 10px; background: rgba(0,113,227,0.1); color: #0071e3; border: 1px solid rgba(0,113,227,0.2); font-family: 'SF Mono', monospace; letter-spacing: -0.3px; }
     .ssh-tag { display: inline-block; margin-top: 3px; margin-left: 4px; padding: 1px 6px; font-size: 9px; border-radius: 8px; font-family: 'SF Mono', monospace; font-weight: 600; letter-spacing: -0.3px; }
@@ -581,6 +583,25 @@ function renderDashboard() {
     .row-never td { opacity: 0.55; } .row-never:hover td { opacity: 0.85; }
     .toast { position: fixed; bottom: 20px; right: 20px; background: var(--panel); border: 1px solid var(--border); padding: 10px 18px; border-radius: var(--radius-sm); box-shadow: 0 8px 24px rgba(15,23,42,0.06); display: none; font-size: 13px; z-index: 100; }
     .footer { text-align: center; padding: 16px; font-size: 11px; color: var(--muted); margin-top: 20px; }
+
+    /* ── 响应式：窄屏适配 ── */
+    @media (max-width: 900px) {
+      .card { padding: 12px 10px; overflow-x: auto; }
+      table { font-size: 12px; min-width: 700px; }
+      thead th, tbody td { padding: 6px 6px; }
+      .ov-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    }
+    @media (max-width: 600px) {
+      .container { padding: 10px 6px; }
+      .card { padding: 10px 6px; }
+      table { min-width: 600px; font-size: 11px; }
+      thead th, tbody td { padding: 5px 4px; font-size: 11px; }
+      /* 隐藏次要列：HB版本、操作 */
+      thead th:nth-child(9), tbody td:nth-child(9),
+      thead th:nth-child(10), tbody td:nth-child(10) { display: none; }
+      .ov-grid { grid-template-columns: 1fr 1fr; }
+      .ov-value { font-size: 22px; }
+    }
 
     /* ── 守护犬告警横幅 ── */
     .watchdog-banner { padding: 10px 16px; border-radius: var(--radius-sm); margin-bottom: 12px; font-size: 13px; display: flex; align-items: center; gap: 8px; }
@@ -662,6 +683,7 @@ function renderDashboard() {
     <div class="card">
       <h2>运行状态</h2>
       <div class="section-blurb">点击机器行展开查看会话、Cron、Token 用量、技能详情</div>
+      <div class="table-wrap">
       <table>
         <thead><tr>
           <th>名称 / 主机</th><th>系统</th><th>状态</th><th>CPU</th>
@@ -669,6 +691,7 @@ function renderDashboard() {
         </tr></thead>
         <tbody>${machineRows}</tbody>
       </table>
+      </div>
     </div>
 
     <div class="footer">小龙虾舰队 v4 · Syncthing + Tailscale · 参考 openclaw-control-center</div>
