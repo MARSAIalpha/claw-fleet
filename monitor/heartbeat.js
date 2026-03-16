@@ -23,7 +23,7 @@ const https = require('https');
 const os = require('os');
 
 // ── 版本号（每次更新 heartbeat.js 时递增，用于判断 Syncthing 是否已同步）──
-const HEARTBEAT_VERSION = 6;
+const HEARTBEAT_VERSION = 7;
 
 // ── 参数解析 ──
 const args = parseArgs(process.argv.slice(2));
@@ -712,6 +712,22 @@ const cmdServer = http.createServer((req, res) => {
               return res.end(JSON.stringify({ success: false, message: '需要 key 和 value 参数' }));
             }
             break;
+          case 'agent-message': {
+            // 中继服务用：通过 openclaw agent CLI 发送消息给本机 agent
+            const msg = parsed.message;
+            if (!msg) {
+              res.writeHead(400, { 'Content-Type': 'application/json' });
+              return res.end(JSON.stringify({ success: false, message: '需要 message 参数' }));
+            }
+            // 转义消息中的引号
+            const escaped = msg.replace(/"/g, '\\"').replace(/\$/g, '\\$');
+            const agentId = parsed.agent || 'main';
+            const replyTo = parsed.replyTo || '';
+            const replyPart = replyTo ? ` --reply-to "${replyTo}" --reply-channel telegram` : '';
+            cmd = `${oc} agent -m "${escaped}" --agent ${agentId} --channel telegram --deliver${replyPart}`;
+            execTimeout = 120000; // agent 回复可能需要时间
+            break;
+          }
           case 'restart-heartbeat':
             // 远程重启心跳进程（用于 Syncthing 同步新代码后重载）
             res.writeHead(200, { 'Content-Type': 'application/json' });
