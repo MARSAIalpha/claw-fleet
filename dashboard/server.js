@@ -53,6 +53,23 @@ function backgroundPingAll() {
 setInterval(backgroundPingAll, 20000);
 setTimeout(backgroundPingAll, 2000); // 启动 2 秒后首次 ping
 
+// ── SSH 连通性检测缓存 ──
+const sshCache = {}; // { machineKey: { ok: bool, ts: number } }
+function backgroundSSHCheckAll() {
+  const config = loadFleetConfig();
+  if (!config?.machines) return;
+  for (const [key, m] of Object.entries(config.machines)) {
+    if (m.hidden || !m.tailscale_ip || !m.ssh_user) continue;
+    const cmd = `ssh -o StrictHostKeyChecking=no -o ConnectTimeout=3 -o BatchMode=yes ${m.ssh_user}@${m.tailscale_ip} echo ok 2>/dev/null`;
+    exec(cmd, { timeout: 5000 }, (err, stdout) => {
+      sshCache[key] = { ok: !err && stdout.trim() === 'ok', ts: Date.now() };
+    });
+  }
+}
+// 每 60 秒检测一次 SSH（比 ping 间隔长，因为 SSH 开销更大）
+setInterval(backgroundSSHCheckAll, 60000);
+setTimeout(backgroundSSHCheckAll, 5000);
+
 function getAllStatus() {
   const now = Date.now();
 
@@ -218,6 +235,8 @@ function renderDashboard() {
     const memStatus = memPct > 85 ? 'over' : memPct > 70 ? 'warn' : 'ok';
     const label = a.machine_label || a.agent_id || a.id;
     const agentId = a.agent_id || a.id;
+    const sshOk = sshCache[agentId]?.ok || false;
+    const sshChecked = !!sshCache[agentId];
     const oc = a.openclaw || {};
     const tu = oc.token_usage || {};
     const todayTokens = tu.today?.total || 0;
@@ -247,10 +266,9 @@ function renderDashboard() {
             ? (a.bot_config.synced ? ' · <span style="color:var(--ok)">🤖已同步</span>' : ' · <span style="color:var(--over)">🤖未同步</span>')
             : ''
         }</div>
-        ${a.openclaw?.primary_model ? `<span class="model-tag">${escHtml(a.openclaw.primary_model)}</span>` : ''}
       </td>
-      <td>${escHtml(plat)}</td>
-      <td data-cell="status">${badge(gwStatus, gwLabel)}</td>
+      <td>${escHtml(plat)}${a.openclaw?.primary_model ? `<br><span class="model-tag">${escHtml(a.openclaw.primary_model)}</span>` : ''}</td>
+      <td data-cell="status">${badge(gwStatus, gwLabel)}${sshOk ? '<br><span class="ssh-tag ok">SSH</span>' : (sshChecked ? '<br><span class="ssh-tag off">SSH</span>' : '')}</td>
       <td data-cell="cpu">${isNever ? '-' : (a.system?.cpu_count||'?')+'核'}</td>
       <td data-cell="mem">${isNever ? '<span class="meta">-</span>' : `
         <div class="bar-row">
@@ -489,6 +507,9 @@ function renderDashboard() {
     .bar-label { font-size: 11px; color: var(--muted); white-space: nowrap; }
     .agent-name { font-weight: 600; font-size: 13px; } .meta { font-size: 11px; color: var(--muted); }
     .model-tag { display: inline-block; margin-top: 3px; padding: 1px 8px; font-size: 10px; border-radius: 10px; background: rgba(0,113,227,0.1); color: #0071e3; border: 1px solid rgba(0,113,227,0.2); font-family: 'SF Mono', monospace; letter-spacing: -0.3px; }
+    .ssh-tag { display: inline-block; margin-top: 3px; margin-left: 4px; padding: 1px 6px; font-size: 9px; border-radius: 8px; font-family: 'SF Mono', monospace; font-weight: 600; letter-spacing: -0.3px; }
+    .ssh-tag.ok { background: rgba(36,138,61,0.1); color: #1d7435; border: 1px solid rgba(36,138,61,0.2); }
+    .ssh-tag.off { background: rgba(255,59,48,0.1); color: #d70015; border: 1px solid rgba(255,59,48,0.2); }
     .model-code { font-family: "SF Mono","Fira Code",monospace; font-size: 11px; background: rgba(0,113,227,0.06); padding: 2px 6px; border-radius: 5px; color: #0059b4; }
     .model-code.secondary { background: rgba(0,0,0,0.04); color: var(--muted); }
     .profile-row { display: flex; align-items: center; gap: 6px; padding: 3px 0; font-size: 12px; }
@@ -1250,7 +1271,9 @@ const server = http.createServer((req, res) => {
         hbVersion: a.heartbeat_version||0,
         latestVersion: LATEST_HEARTBEAT_VERSION,
         botSynced: a.bot_config?.synced||false,
-        botExpected: a.bot_config?.expected||false
+        botExpected: a.bot_config?.expected||false,
+        sshOk: sshCache[agentId]?.ok || false,
+        sshChecked: !!sshCache[agentId]
       };
     });
     res.writeHead(200, { 'Content-Type': 'application/json' });

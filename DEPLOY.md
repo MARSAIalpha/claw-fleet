@@ -5,6 +5,7 @@
 2. **Tailscale** 已登录: `tailscale status`
 3. **Syncthing** 已配置共享 `claw-fleet` 文件夹
 4. **OpenClaw** 已安装并配置
+5. **SSH 服务** 已开启（总控虾通过 SSH 调度各机器）
 
 ## 快速验证当前状态
 
@@ -88,11 +89,47 @@ cd C:\Users\<USERNAME>\claw-fleet\service
 
 ---
 
+## SSH 配置（舰队调度必需）
+
+总控虾通过 SSH 调度其他机器上的 Agent。每台被调度的机器都需要开启 SSH 服务。
+
+### macOS
+系统设置 → 通用 → 共享 → 远程登录 → 开启
+
+### Windows
+```powershell
+# 以管理员身份运行
+Get-Service sshd | Start-Service
+Set-Service -Name sshd -StartupType Automatic
+```
+
+### Linux
+```bash
+sudo systemctl enable --now sshd
+```
+
+### 验证 SSH 连通性
+```bash
+# 从总控虾机器（macbook）测试
+ssh -o ConnectTimeout=3 <user>@<tailscale_ip> echo ok
+```
+
+Dashboard 会每 60 秒自动检测各机器的 SSH 连通性，在状态列显示绿色/红色 SSH 标签。
+
+### 调度脚本
+总控虾使用 `shared/skills/fleet-dispatch/dispatch.sh` 通过 SSH 调度任务：
+```bash
+bash ~/claw-fleet/shared/skills/fleet-dispatch/dispatch.sh <机器名> "<消息>"
+```
+
+---
+
 ## 部署后验证
 在控制面板 http://localhost:4567 确认：
 - 所有已部署机器显示绿色「运行中」
 - 心跳时间在 2 分钟以内
 - 模型配置和认证信息正确显示
+- SSH 标签显示绿色（被调度的机器）
 
 ## 卸载
 ```bash
