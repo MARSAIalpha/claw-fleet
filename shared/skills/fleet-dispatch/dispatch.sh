@@ -36,10 +36,13 @@ print(m['tailscale_ip'], m['ssh_user'], m['platform'])
 # 构造远程命令
 ESCAPED_MSG=$(printf '%s' "$MESSAGE" | sed "s/'/'\\\\''/g")
 
+# 群 chat_id 和指挥中心 topic
+GROUP_CHAT_ID="-1003534331530"
+
 if [ "$PLATFORM" = "win32" ]; then
-  REMOTE_CMD="openclaw agent --agent main --channel telegram --deliver -m '${ESCAPED_MSG}'"
+  REMOTE_CMD="openclaw agent --agent main --channel telegram --deliver --reply-to ${GROUP_CHAT_ID} -m '${ESCAPED_MSG}'"
 else
-  REMOTE_CMD="export PATH=/opt/homebrew/bin:/usr/local/bin:\$PATH && openclaw agent --agent main --channel telegram --deliver -m '${ESCAPED_MSG}'"
+  REMOTE_CMD="export PATH=/opt/homebrew/bin:/usr/local/bin:\$PATH && openclaw agent --agent main --channel telegram --deliver --reply-to ${GROUP_CHAT_ID} -m '${ESCAPED_MSG}'"
 fi
 
 echo "📡 调度 → $MACHINE ($USER@$IP)" >&2
