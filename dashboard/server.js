@@ -60,8 +60,8 @@ function backgroundSSHCheckAll() {
   if (!config?.machines) return;
   for (const [key, m] of Object.entries(config.machines)) {
     if (m.hidden || !m.tailscale_ip || !m.ssh_user) continue;
-    const cmd = `ssh -o StrictHostKeyChecking=no -o ConnectTimeout=3 -o BatchMode=yes ${m.ssh_user}@${m.tailscale_ip} echo ok 2>/dev/null`;
-    exec(cmd, { timeout: 5000 }, (err, stdout) => {
+    const cmd = `ssh -o StrictHostKeyChecking=no -o ConnectTimeout=8 -o BatchMode=yes ${m.ssh_user}@${m.tailscale_ip} echo ok 2>/dev/null`;
+    exec(cmd, { timeout: 15000 }, (err, stdout) => {
       sshCache[key] = { ok: !err && stdout.trim() === 'ok', ts: Date.now() };
     });
   }
@@ -725,9 +725,14 @@ function renderDashboard() {
           const row = document.querySelector('tr.machine-row[data-agent="'+m.agentId+'"]');
           if (!row) return;
 
-          // 状态 badge
+          // 状态 badge + SSH tag
           const statusCell = row.querySelector('[data-cell="status"]');
-          if (statusCell) statusCell.innerHTML = badgeHTML(m.gwStatus, m.gwLabel);
+          if (statusCell) {
+            let sshHtml = '';
+            if (m.sshOk) sshHtml = '<br><span class="ssh-tag ok">SSH</span>';
+            else if (m.sshChecked) sshHtml = '<br><span class="ssh-tag off">SSH</span>';
+            statusCell.innerHTML = badgeHTML(m.gwStatus, m.gwLabel) + sshHtml;
+          }
 
           // 内存
           const memCell = row.querySelector('[data-cell="mem"]');
