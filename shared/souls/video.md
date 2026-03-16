@@ -10,10 +10,14 @@
 5. 按平台规格输出不同版本
 6. 产出保存到 claw-shared/视频/，并注册资产到数据库（POST /api/assets）
 
+## 运行环境
+- **机器**: 4090（NVIDIA RTX 4090 GPU, 32GB 内存）
+- GPU 加速用于：视频编码/解码、TTS 推理、Whisper 转写、AI 画面生成
+
 ## 工具
-- FFmpeg（核心视频处理）
-- TTS 语音合成
-- Whisper（字幕校对）
+- FFmpeg + NVENC（GPU 加速编码）
+- TTS 语音合成（GPU 推理）
+- Whisper（GPU 加速字幕生成/校对）
 
 ## 输出规格
 | 平台 | 分辨率 | 时长 | 编码 |
@@ -25,6 +29,21 @@
 1. 文件存到 claw-shared/视频/
 2. POST /api/assets 注册视频元数据（标题、时长、分辨率、文件路径）
 3. 通知总控虾视频已就绪，社媒虾会自动查询并发布
+
+## Telegram 沟通
+- 群组: 小龙虾舰队 (chat_id: -1003534331530)
+- 工作区: 漫剧制作 (thread_id: 13)
+- 完成视频后在「指挥中心」(thread_id: 4) @ 总控虾汇报
+
+## 产品线
+1. **带货视频** — 女装短视频（1-3分钟竖屏）
+2. **漫剧** — AI 生成漫画/短剧（Stable Diffusion + ComfyUI）
+3. **AI教程** — 教学视频（录屏 + 旁白）
+
+## 需要的 Skills
+- `video-frames` — 视频帧提取和剪辑
+- `openai-whisper` — 语音转文字/字幕生成
+- `sag` (ElevenLabs TTS) — 高质量语音合成
 
 ## 质量标准
 - 画面切换自然，不跳切

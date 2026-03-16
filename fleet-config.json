@@ -7,84 +7,84 @@
     "openclaw_version": "latest",
     "default_model": "deepseek/deepseek-chat",
     "telegram": {
-      "group_id": "-100XXXXXXXXXX",
+      "group_id": "-1003534331530",
+      "relay_channel_id": "-1003840752146",
+      "relay_channel_name": "龙虾指挥通道",
       "topics": {
-        "指挥部": "TOPIC_ID_HERE",
-        "编剧组": "TOPIC_ID_HERE",
-        "美术组": "TOPIC_ID_HERE",
-        "视频组": "TOPIC_ID_HERE",
-        "发布组": "TOPIC_ID_HERE",
-        "数据组": "TOPIC_ID_HERE",
-        "日志":   "TOPIC_ID_HERE"
+        "指挥中心": 4,
+        "新闻组": 6,
+        "AI教程组": 11,
+        "漫剧制作": 13,
+        "app开发": 15
       }
     }
   },
 
   "agents": [
     {
-      "id": "orchestrator",
-      "name": "指挥虾",
+      "id": "hub",
+      "name": "总控虾",
       "machine": "rog",
-      "model": "anthropic/claude-sonnet-4-6",
-      "soul": "shared/souls/orchestrator.md",
-      "skills": ["task-dispatch", "status-report", "fleet-monitor"],
-      "bot_token_env": "CLAW_BOT_TOKEN_ORCH",
-      "topic": "指挥部",
+      "model": "deepseek/deepseek-chat",
+      "soul": "shared/souls/hub.md",
+      "skills": ["task-dispatch", "knowledge-manage", "fleet-monitor", "report-gen", "feishu-doc", "feishu-wiki"],
+      "bot_token_env": "CLAW_BOT_TOKEN_HUB",
+      "topic": "总控",
       "heartbeat_interval": 300
     },
     {
-      "id": "writer",
-      "name": "编剧虾",
-      "machine": "macmini",
+      "id": "news",
+      "name": "新闻虾",
+      "machine": "macmini2",
       "model": "deepseek/deepseek-chat",
-      "soul": "shared/souls/writer.md",
-      "skills": ["screenplay", "copywriting", "novel-parser"],
-      "bot_token_env": "CLAW_BOT_TOKEN_WRITER",
-      "topic": "编剧组",
+      "soul": "shared/souls/news.md",
+      "skills": ["rss-monitor", "web-scraper", "news-digest", "trend-analysis"],
+      "bot_token_env": "CLAW_BOT_TOKEN_NEWS",
+      "topic": "新闻组",
       "heartbeat_interval": 300
     },
     {
-      "id": "artist",
-      "name": "美术虾",
-      "machine": "4090",
+      "id": "social",
+      "name": "社媒虾",
+      "machine": "p4",
       "model": "deepseek/deepseek-chat",
-      "soul": "shared/souls/artist.md",
-      "skills": ["sd-prompt", "midjourney", "storyboard"],
-      "bot_token_env": "CLAW_BOT_TOKEN_ARTIST",
-      "topic": "美术组",
+      "soul": "shared/souls/social.md",
+      "skills": ["multi-platform", "content-schedule", "analytics", "seo-optimizer"],
+      "bot_token_env": "CLAW_BOT_TOKEN_SOCIAL",
+      "topic": "社媒组",
       "heartbeat_interval": 300
     },
     {
       "id": "video",
       "name": "视频虾",
-      "machine": "macbook",
+      "machine": "4090",
       "model": "deepseek/deepseek-chat",
       "soul": "shared/souls/video.md",
-      "skills": ["ffmpeg-edit", "tts-gen", "subtitle-gen"],
+      "skills": ["ffmpeg-edit", "tts-gen", "subtitle-gen", "storyboard", "gpu-render"],
       "bot_token_env": "CLAW_BOT_TOKEN_VIDEO",
       "topic": "视频组",
       "heartbeat_interval": 300
     },
     {
-      "id": "publisher",
-      "name": "发布虾",
-      "machine": "p4",
+      "id": "devbot",
+      "name": "开发虾",
+      "machine": "macbook",
       "model": "deepseek/deepseek-chat",
-      "soul": "shared/souls/publisher.md",
-      "skills": ["multi-platform", "analytics", "seo-optimizer"],
-      "bot_token_env": "CLAW_BOT_TOKEN_PUB",
-      "topic": "发布组",
+      "soul": "shared/souls/devbot.md",
+      "skills": ["code-gen", "app-build", "test-runner", "deploy"],
+      "bot_token_env": "CLAW_BOT_TOKEN_DEV",
+      "topic": "开发组",
       "heartbeat_interval": 300
     },
     {
-      "id": "databot",
-      "name": "数据虾",
-      "machine": "macmini2",
+      "id": "devbot2",
+      "name": "开发虾2号",
+      "machine": "macmini",
       "model": "deepseek/deepseek-chat",
-      "soul": "shared/souls/databot.md",
-      "skills": ["health-data", "timeline-api", "report-gen"],
-      "bot_token_env": "CLAW_BOT_TOKEN_DATA",
-      "topic": "数据组",
+      "soul": "shared/souls/devbot.md",
+      "skills": ["code-gen", "app-build", "test-runner", "deploy"],
+      "bot_token_env": "CLAW_BOT_TOKEN_DEV2",
+      "topic": "开发组",
       "heartbeat_interval": 300
     }
   ],
@@ -97,7 +97,9 @@
       "platform": "win32",
       "agent_id": "rog",
       "label": "Rog 指挥虾",
-      "bot_token": ""
+      "bot_token": "REDACTED_BOT_TOKEN",
+      "model": "openai-codex/gpt-5.4",
+      "fallback_model": "zai/glm-5"
     },
     "vps": {
       "hostname": "ali-vps",
@@ -115,7 +117,9 @@
       "platform": "darwin",
       "agent_id": "macmini",
       "label": "Mac Mini News",
-      "bot_token": "REDACTED_BOT_TOKEN"
+      "bot_token": "REDACTED_BOT_TOKEN",
+      "model": "zai/glm-5-turbo",
+      "fallback_model": "zai/glm-5"
     },
     "macbook": {
       "hostname": "SimondeMacBook-Air-7.local",
@@ -124,7 +128,9 @@
       "platform": "darwin",
       "agent_id": "simondemacbook-air-7",
       "label": "MacBook 视频虾",
-      "bot_token": "REDACTED_BOT_TOKEN"
+      "bot_token": "REDACTED_BOT_TOKEN",
+      "model": "minimax-cn/MiniMax-M2.5",
+      "fallback_model": "zai/glm-5"
     },
     "p4": {
       "hostname": "desktop-s62r5qc",
@@ -133,7 +139,9 @@
       "platform": "win32",
       "agent_id": "p4",
       "label": "P4 带货虾",
-      "bot_token": "REDACTED_BOT_TOKEN"
+      "bot_token": "REDACTED_BOT_TOKEN",
+      "model": "minimax-cn/MiniMax-M2.5",
+      "fallback_model": "zai/glm-5"
     },
     "4090": {
       "hostname": "Marsaini",
@@ -142,7 +150,9 @@
       "platform": "win32",
       "agent_id": "4090",
       "label": "4090 渲染虾",
-      "bot_token": "REDACTED_BOT_TOKEN"
+      "bot_token": "REDACTED_BOT_TOKEN",
+      "model": "zai/glm-5-turbo",
+      "fallback_model": "zai/glm-5"
     },
     "macmini2": {
       "hostname": "macmini2",
@@ -151,7 +161,9 @@
       "platform": "darwin",
       "agent_id": "macmini2",
       "label": "Mac Mini 2",
-      "bot_token": "REDACTED_BOT_TOKEN"
+      "bot_token": "REDACTED_BOT_TOKEN",
+      "model": "zai/glm-5-turbo",
+      "fallback_model": "zai/glm-5"
     }
   },
 

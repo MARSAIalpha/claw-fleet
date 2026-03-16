@@ -1,0 +1,9 @@
+{
+  "name": "claw-fleet-relay",
+  "version": "1.0.0",
+  "description": "龙虾舰队中继服务 — 频道指令转发",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

@@ -49,8 +49,8 @@ function backgroundPingAll() {
     req.on('timeout', () => { req.destroy(); pingCache[agentId] = { alive: false, ts: Date.now() }; });
   }
 }
-// 每 30 秒 ping 一轮
-setInterval(backgroundPingAll, 30000);
+// 每 20 秒 ping 一轮
+setInterval(backgroundPingAll, 20000);
 setTimeout(backgroundPingAll, 2000); // 启动 2 秒后首次 ping
 
 function getAllStatus() {
@@ -61,11 +61,15 @@ function getAllStatus() {
   const heartbeatsDir = path.join(statusDir, 'heartbeats');
   if (fs.existsSync(heartbeatsDir)) {
     try {
-      for (const file of fs.readdirSync(heartbeatsDir).filter(f => f.endsWith('.json') && !f.startsWith('_') && !f.includes('.sync-conflict-'))) {
+      for (const file of fs.readdirSync(heartbeatsDir).filter(f => f.endsWith('.json') && !f.startsWith('_') && !f.includes('.sync-conflict-') && !f.startsWith('~'))) {
         try {
-          let raw = fs.readFileSync(path.join(heartbeatsDir, file), 'utf8');
+          const filePath = path.join(heartbeatsDir, file);
+          let raw = fs.readFileSync(filePath, 'utf8');
           if (raw.charCodeAt(0) === 0xFEFF) raw = raw.slice(1);
           const data = JSON.parse(raw);
+          // 用文件 mtime 作为兜底时间戳（Syncthing 同步后 mtime 会更新）
+          const fileMtime = fs.statSync(filePath).mtimeMs;
+          data._fileMtime = fileMtime;
           const agentId = data.agent_id || file.replace('.json', '');
           heartbeatData[agentId] = data;
         } catch (e) {}
@@ -90,19 +94,22 @@ function getAllStatus() {
 
   // 1. 先处理有心跳数据的 agent（跳过 hidden 机器）
   for (const [id, a] of Object.entries(heartbeatData)) {
-    const lastSeen = new Date(a.timestamp).getTime();
+    const tsTime = new Date(a.timestamp).getTime();
+    const lastSeen = (a._fileMtime && a._fileMtime > tsTime) ? a._fileMtime : tsTime;
     const elapsed = now - lastSeen;
     const machineKey = Object.keys(expectedMachines).find(k =>
       expectedMachines[k].agent_id === id || k === id
     );
     const machineInfo = machineKey ? expectedMachines[machineKey] : null;
     if (machineInfo && machineInfo.hidden) { seen.add(id); if (machineKey) seen.add(machineKey); continue; }
-    // 主动 ping 兜底：心跳文件超时但 ping 通 = 仍然在线（Syncthing 延迟）
+    // 多重判定在线：心跳 timestamp / 文件 mtime / 主动 ping，任一满足即在线
     const fileOnline = elapsed < TIMEOUT_MS;
-    const pingAlive = pingCache[id]?.alive && (now - (pingCache[id]?.ts || 0)) < 60000;
+    const mtimeElapsed = a._fileMtime ? (now - a._fileMtime) : Infinity;
+    const mtimeOnline = mtimeElapsed < TIMEOUT_MS;
+    const pingAlive = pingCache[id]?.alive && (now - (pingCache[id]?.ts || 0)) < 90000;
     result.push({
       ...a, id,
-      online: fileOnline || pingAlive,
+      online: fileOnline || mtimeOnline || pingAlive,
       elapsed,
       elapsedText: fmtElapsed(elapsed),
       expected: true,
@@ -151,7 +158,7 @@ function fmtElapsed(ms) {
   return Math.round(ms / 86400000) + '天前';
 }
 function fmtBytes(b) { if (!b) return '-'; return b < 1048576 ? (b/1024).toFixed(1)+' KB' : (b/1048576).toFixed(1)+' MB'; }
-function fmtUptime(s) { if (!s) return '-'; const d=Math.floor(s/86400),h=Math.floor((s%86400)/3600),m=Math.floor((s%3600)/60); return d>0?d+'d '+h+'h':h+'h '+m+'m'; }
+function fmtUptime(s) { if (!s) return '-'; const d=Math.floor(s/86400),h=Math.floor((s%86400)/3600),m=Math.floor((s%3600)/60); return d>0?d+'天 '+h+'时':h+'时 '+m+'分'; }
 function fmtTime(iso) {
   if (!iso) return '-';
   try { const d=Date.now()-new Date(iso).getTime(); return d<3600000?Math.round(d/60000)+'分钟前':d<86400000?Math.round(d/3600000)+'小时前':Math.round(d/86400000)+'天前'; } catch{ return '-'; }
@@ -224,7 +231,8 @@ function renderDashboard() {
         ? `<button class="btn-action btn-danger" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','restart')">重启</button>
            <button class="btn-action btn-warn" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','stop')">停止</button>
            <button class="btn-action" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','status')">状态</button>
-           <button class="btn-action" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','logs')">日志</button>`
+           <button class="btn-action" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','logs')">日志</button>
+           <button class="btn-action" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','sync-model')" title="同步模型配置">同步模型</button>`
         : `<button class="btn-action btn-ok" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','start')">启动</button>
            <button class="btn-action" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','doctor')">诊断</button>
            <button class="btn-action" onclick="event.stopPropagation();sendCommand('${escHtml(agentId)}','logs')">日志</button>`);
@@ -239,6 +247,7 @@ function renderDashboard() {
             ? (a.bot_config.synced ? ' · <span style="color:var(--ok)">🤖已同步</span>' : ' · <span style="color:var(--over)">🤖未同步</span>')
             : ''
         }</div>
+        ${a.openclaw?.primary_model ? `<span class="model-tag">${escHtml(a.openclaw.primary_model)}</span>` : ''}
       </td>
       <td>${escHtml(plat)}</td>
       <td data-cell="status">${badge(gwStatus, gwLabel)}</td>
@@ -479,6 +488,7 @@ function renderDashboard() {
     .bar-fill { height: 100%; border-radius: 999px; } .bar-fill.ok { background: #18a97a; } .bar-fill.warn { background: #d69a1d; } .bar-fill.over { background: #cc4545; }
     .bar-label { font-size: 11px; color: var(--muted); white-space: nowrap; }
     .agent-name { font-weight: 600; font-size: 13px; } .meta { font-size: 11px; color: var(--muted); }
+    .model-tag { display: inline-block; margin-top: 3px; padding: 1px 8px; font-size: 10px; border-radius: 10px; background: rgba(0,113,227,0.1); color: #0071e3; border: 1px solid rgba(0,113,227,0.2); font-family: 'SF Mono', monospace; letter-spacing: -0.3px; }
     .model-code { font-family: "SF Mono","Fira Code",monospace; font-size: 11px; background: rgba(0,113,227,0.06); padding: 2px 6px; border-radius: 5px; color: #0059b4; }
     .model-code.secondary { background: rgba(0,0,0,0.04); color: var(--muted); }
     .profile-row { display: flex; align-items: center; gap: 6px; padding: 3px 0; font-size: 12px; }
@@ -582,6 +592,7 @@ function renderDashboard() {
       <div class="header-actions">
         <button class="btn-action btn-version-check" onclick="checkLatestVersion()" title="检查 npm 最新版本">检查更新</button>
         <button class="btn-action btn-fleet-update" onclick="fleetUpdate(true)" title="更新所有节点并重启 Gateway">全舰队更新</button>
+        <button class="btn-action btn-fleet-update" onclick="syncAllModels()" title="同步所有节点的模型配置">一键同步模型</button>
       </div>
     </div>
     <div class="header-sub" id="headerSub">更新于 ${now} · 每 15 秒自动刷新 · ${escHtml([...versionSet].join(', ')||'-')}</div>
@@ -659,7 +670,7 @@ function renderDashboard() {
     function fmtUptimeJS(s) {
       if (!s || s <= 0) return '-';
       const d = Math.floor(s/86400), h = Math.floor((s%86400)/3600), m = Math.floor((s%3600)/60);
-      return d > 0 ? d+'d '+h+'h' : h+'h '+m+'m';
+      return d > 0 ? d+'\u5929 '+h+'\u65f6' : h+'\u65f6 '+m+'\u5206';
     }
     function badgeHTML(status, label) {
       return '<span class="badge badge-'+status+'">'+label+'</span>';
@@ -790,7 +801,7 @@ function renderDashboard() {
       if (cmd === 'restart' && !confirm('确认重启 ' + agent + ' 的 Gateway？')) return;
       if (cmd === 'stop' && !confirm('确认停止 ' + agent + ' 的 Gateway？')) return;
       cmdRunning = true;
-      const cmdLabel = {restart:'重启',status:'状态查询',logs:'日志',doctor:'诊断',stop:'停止',start:'启动',update:'更新','update-restart':'更新+重启',cron:'Cron列表'};
+      const cmdLabel = {restart:'重启',status:'状态查询',logs:'日志',doctor:'诊断',stop:'停止',start:'启动',update:'更新','update-restart':'更新+重启',cron:'Cron列表','sync-model':'同步模型'};
       showResult(agent + ' - ' + (cmdLabel[cmd]||cmd) + ' 执行中...', '正在执行...', false);
       fetch('/api/command', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({agent,command:cmd}) })
       .then(r=>r.json()).then(d=>{ cmdRunning=false; showResult(agent+' - '+(cmdLabel[cmd]||cmd), d.message||'完成', !d.success); })
@@ -811,6 +822,14 @@ function renderDashboard() {
           if(!silent) showResult('版本检查','已是最新 ('+d.latest+')',false);
         }
       }).catch(e=>{ cmdRunning=false; if(!silent) showResult('版本检查','失败: '+e.message,true); });
+    }
+
+    function syncAllModels() {
+      if (!confirm('一键同步所有节点的模型配置？')) return;
+      cmdRunning=true; showResult('全舰队模型同步','正在同步所有在线节点...',false);
+      fetch('/api/command-all', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({command:'sync-model'}) })
+      .then(r=>r.json()).then(d=>{ cmdRunning=false; showResult('全舰队模型同步', d.message||'完成', !d.success); })
+      .catch(e=>{ cmdRunning=false; showResult('全舰队模型同步','失败: '+e.message, true); });
     }
 
     function fleetUpdate(restart) {
@@ -1017,6 +1036,21 @@ function buildRemoteCmd(machine, command) {
     case 'logs':
       remoteCmd = `${oc} logs`;
       break;
+    case 'sync-model': {
+      // 从 fleet-config 读取目标模型，远程修改 openclaw 配置
+      const targetModel = machine.model;
+      const fallbackModel = machine.fallback_model || '';
+      if (!targetModel) return null;
+      if (isWin) {
+        // Windows: 用 PowerShell 修改 JSON
+        const ps = `$f=\\"$env:USERPROFILE\\.openclaw\\openclaw.json\\"; $d=Get-Content $f -Raw|ConvertFrom-Json; $d.agents.defaults.model.primary=\\"${targetModel}\\"; if(\\"${fallbackModel}\\"){$d.agents.defaults.model.fallbacks=@(\\"${fallbackModel}\\")}; $d|ConvertTo-Json -Depth 20|Set-Content $f; echo \\"Model set to ${targetModel}\\"`;
+        remoteCmd = `powershell -Command "${ps}"`;
+      } else {
+        // macOS/Linux: 用 python3 修改 JSON
+        remoteCmd = `python3 -c "import json,os;f=os.path.expanduser('~/.openclaw/openclaw.json');d=json.load(open(f));d['agents']['defaults']['model']['primary']='${targetModel}';d['agents']['defaults']['model']['fallbacks']=['${fallbackModel}'] if '${fallbackModel}' else [];json.dump(d,open(f,'w'),indent=2);print('Model set to ${targetModel}')"`;
+      }
+      break;
+    }
     default:
       return null;
   }
@@ -1248,6 +1282,38 @@ const server = http.createServer((req, res) => {
     return;
   }
   // 全舰队批量更新 API
+  // 全舰队批量命令
+  if (req.url === '/api/command-all' && req.method === 'POST') {
+    let body = '';
+    req.on('data', d => body += d);
+    req.on('end', () => {
+      try {
+        const { command } = JSON.parse(body);
+        const agents = getAllStatus().filter(a => !a.never_seen);
+        if (agents.length === 0) {
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          return res.end(JSON.stringify({ success: false, message: '没有在线节点' }));
+        }
+        const results = [];
+        let done = 0;
+        agents.forEach(a => {
+          const id = a.agent_id || a.id;
+          executeRemoteCommand(id, command, (err, result) => {
+            results.push({ agent: id, result: err || result });
+            done++;
+            if (done === agents.length) {
+              res.writeHead(200, { 'Content-Type': 'application/json' });
+              res.end(JSON.stringify({ success: true, message: results.map(r => r.result).join('\n\n') }));
+            }
+          });
+        });
+      } catch (e) {
+        res.writeHead(400, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: e.message }));
+      }
+    });
+    return;
+  }
   if (req.url === '/api/fleet-update' && req.method === 'POST') {
     let body = '';
     req.on('data', d => body += d);
