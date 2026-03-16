@@ -15,10 +15,8 @@ Manage multiple AI agents running across your physical machines — with heartbe
         │                  │                  │
    ┌────▼────┐       ┌────▼────┐       ┌────▼────┐
    │ Machine1 │       │ Machine2 │       │ Machine3 │
-   │ Win/Mac  │       │ Mac Mini │       │ Linux    │
-   │          │       │          │       │          │
-   │ Agent    │       │ Agent    │       │ Agent    │
-   │ Heartbeat│       │ Heartbeat│       │ Heartbeat│
+   │ Hub Agent│  SSH  │ Dev Agent│  SSH  │ News Bot │
+   │ Heartbeat├──────►│ Heartbeat├──────►│ Heartbeat│
    │ :18790   │       │ :18790   │       │ :18790   │
    └────┬─────┘       └────┬─────┘       └────┬─────┘
         │                  │                  │
@@ -43,6 +41,7 @@ There are many multi-agent frameworks (CrewAI, AutoGen, MetaGPT), but they all r
 - Auto-restart when an agent crashes
 - Cross-platform support (Windows, macOS, Linux)
 - Zero cloud dependency (runs entirely on your LAN/VPN)
+- Inter-agent communication via SSH dispatch (bots can't see each other on Telegram/Feishu)
 
 ...there's nothing out there that does this. **Claw Fleet** fills that gap.
 
@@ -134,6 +133,49 @@ sudo bash service/install-heartbeat-linux.sh --agent-id my-pc
 .\service\install-heartbeat-win.ps1 -AgentId "my-pc"
 ```
 
+## Inter-Agent Communication (SSH Dispatch)
+
+Agents communicate through a **hub-and-spoke** model: the hub agent (总控虾) dispatches tasks to other agents via SSH, and responses are posted back to the Telegram group via `--deliver` for full visibility.
+
+```
+User → Hub Agent (macbook)
+              │
+    ┌─────────┼─────────┐
+    │ SSH     │ SSH     │ SSH
+    ▼         ▼         ▼
+ Agent1    Agent2    Agent3
+    │         │         │
+    └─────────┼─────────┘
+         --deliver
+              │
+    Telegram Group (all visible)
+```
+
+### Dispatch Script
+
+```bash
+# Evaluate a task (agent plans but doesn't execute)
+bash shared/skills/fleet-dispatch/dispatch.sh macmini "【评估任务】Write a calculator app"
+
+# Execute a task
+bash shared/skills/fleet-dispatch/dispatch.sh macmini "【执行任务】Write a calculator app"
+```
+
+The script reads SSH credentials from `fleet-config.json`, connects to the target machine, and runs `openclaw agent --deliver` so the response appears in the Telegram group.
+
+### Why SSH, Not Bot-to-Bot Messaging?
+
+Telegram bots **cannot see other bots' messages** (server-side restriction). The same limitation exists in Feishu/Lark. SSH dispatch solves this by having the hub agent directly invoke commands on remote machines, with `--deliver` ensuring all results are posted to the shared Telegram group for auditability.
+
+### SSH Requirements
+
+Every machine that receives dispatched tasks needs SSH enabled:
+- **macOS**: System Settings → General → Sharing → Remote Login
+- **Windows**: `Get-Service sshd | Start-Service`
+- **Linux**: `sudo systemctl enable --now sshd`
+
+The dashboard monitors SSH connectivity every 60 seconds and shows green/red SSH badges per machine.
+
 ## Architecture
 
 ### Heartbeat System (`monitor/heartbeat.js`)
@@ -216,6 +258,9 @@ claw-fleet/
 │   ├── install-heartbeat-linux.sh
 │   └── install-heartbeat-win.ps1
 ├── shared/
+│   ├── skills/
+│   │   └── fleet-dispatch/
+│   │       └── dispatch.sh   # SSH task dispatch script
 │   └── souls/                # Agent personality definitions
 ├── node-setup.sh             # One-click deploy (macOS/Linux)
 ├── node-setup.ps1            # One-click deploy (Windows)
@@ -355,6 +400,7 @@ MIT
 - **Web 控制面板** — Apple 风格 UI，实时舰队总览，远程执行命令
 - **四状态健康指示** — 运行中 / TG断连 / Gateway停止 / 离线
 - **远程控制** — 通过 HTTP API（端口 18790）重启、停止、更新 Agent
+- **SSH 舰队调度** — 总控虾通过 SSH 调度各机器 Agent，结果发到 Telegram 群可见
 - **自动重启** — launchd / systemd / Windows 启动文件夹
 - **热重载代码** — Syncthing 推送代码 + `restart-heartbeat` 重载
 - **一键部署** — 新电脑运行一个脚本完成所有配置
