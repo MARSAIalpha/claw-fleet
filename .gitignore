@@ -52,3 +52,4 @@ dashboard-electron/node_modules/
 
 # db-api (generated, user installs locally)
 db-api/node_modules/
+relay/config.json
